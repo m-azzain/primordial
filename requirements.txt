@@ -1,0 +1,6 @@
+Django>=5.0.4
+django-autocomplete-light>=3.11.0
+django-debug-toolbar>=4.3.0
+psycopg2>=2.9.9
+setuptools>=69.5.1
+python-dotenv>=1.0.1

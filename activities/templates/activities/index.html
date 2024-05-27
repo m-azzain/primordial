@@ -1,0 +1,8 @@
+{% extends "activities/base.html" %}
+
+{% block content%}
+    <h3>Welcome To Activities</h3>
+    <a href="{% url 'activities:diaries' %}">Diaries</a>
+    <br>
+    <a href="{% url 'activities:activities' %}">Activities</a>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "activities/base.html" %}
+
+{% block sub_breadcrumb %}
+    {{ block.super }}
+    &rsaquo; <a href="{% url 'activities:activities' %}">{{ 'Activity List' }}</a>
+    &rsaquo; {{ activity.day_period }}
+{% endblock %}
+
+{% block content_body%}
+    {{ activity }}
+{% endblock %}
