@@ -15,17 +15,34 @@
         <thead>
         <tr>
             <th>Activity</th>
-            <th>Day Period</th>
-            <th>Note</th>
+            <th>Diaries</th>
         </tr>
         </thead>
         <tbody>
         {% for activity in activities %}
             <tr>
                 <td><a href="{% url 'activities:activity' activity.id %}">{{activity}}</a></td>
-                <td>{{ activity.day_period }}</td>
-                <td>{{ activity.note }}</td>
+                <td>
+                    <div class="row">
+                        {% for day in activity.after_midnight_diary_set.all %}
+                            <div class="col-md-3"> {{ day }}</div>
+                        {% endfor %}
+                        {% for day in activity.morning_diary_set.all %}
+                            <div class="col-md-3"> {{ day }}</div>
+                        {% endfor %}
+                        {% for day in activity.during_day_diary_set.all %}
+                            <div class="col-md-3"> {{ day }}</div>
+                        {% endfor %}
+                        {% for day in activity.evening_diary_set.all %}
+                            <div class="col-md-3"> {{ day }}</div>
+                        {% endfor %}
+                        {% for day in activity.before_midnight_diary_set.all %}
+                            <div class="col-md-3"> {{ day }}</div>
+                        {% endfor %}
+                    </div>
+                </td>
             </tr>
+            
         {% endfor %}
         </tbody>
     </table>
