@@ -1,5 +1,9 @@
+from functools import reduce
+from time import strptime, time
+
 from django.contrib import admin
 from django.db import models
+from django.db.models.functions import Extract
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 import datetime
@@ -7,6 +11,19 @@ import datetime
 from .models import (QuranSurah, Book, Programming, Person,
                      Place, Market, Purchase, Lecture, Doctor, Food, GeneralTopic)
 from ..utils import NOTE_LENGTH, STRING_PADDING_LEN, STRING_PADDING_CHAR
+
+AFTER_MIDNIGHT_TEXT = 'After midnight'
+MORNING_TEXT = 'Morning'
+DURING_DAY_TEXT = 'During day'
+EVENING_TEXT = 'Evening'
+BEFORE_MIDNIGHT_TEXT = 'Before midnight'
+
+tz = timezone.get_current_timezone()
+AFTER_MIDNIGHT = datetime.datetime.now(tz).replace(hour=0, minute=0, second=0, microsecond=0).time()
+MORNING = datetime.datetime.now(tz).replace(hour=5, minute=0, second=0, microsecond=0).time()
+DURING_DAY = datetime.datetime.now(tz).replace(hour=11, minute=0, second=0, microsecond=0).time()
+EVENING = datetime.datetime.now(tz).replace(hour=18, minute=0, second=0, microsecond=0).time()
+BEFORE_MIDNIGHT = datetime.datetime.now(tz).replace(hour=22, minute=0, second=0, microsecond=0).time()
 
 
 class ActivityType(models.Model):
@@ -48,6 +65,12 @@ class ActivityType(models.Model):
     prepared_food = models.ForeignKey(Food, on_delete=models.CASCADE, null=True, blank=True)
 
     note = models.TextField(null=True, blank=True)
+
+    def compute_duration(self):
+        duration = 0
+        for activity in self.activity_set.all():
+            duration += activity.duration
+        return duration
 
     def get_type(self) -> TypeChoices:
         return self.TypeChoices[self.type]
@@ -118,34 +141,32 @@ class Activity(models.Model):
     activity_type = models.ForeignKey(ActivityType, on_delete=models.CASCADE)
     note = models.TextField(null=True, blank=True)
 
+    # def compute_duration(self):
+    #     return ((self.time_to.hour - self.time_from.hour) +
+    #             (self.time_to.minute - self.time_from.minute) / 60)
+
+    duration = models.GeneratedField(expression=
+                                     (Extract('time_to', 'hour') -
+                                      Extract('time_from', 'hour')) +
+                                     (Extract('time_to', 'minute') -
+                                      Extract('time_from', 'minute')) / 60,
+                                     output_field=models.FloatField(), db_persist=True)
+
     @admin.display(
         ordering='activity_type',
         description="Period of the Day",
     )
     def day_period(self):
-        tz = timezone.get_current_timezone() # django get us the time zone from the settings
-        after_midnight = datetime.datetime(2000, 1, 1, 0, 0, 0, 0, tzinfo=tz)
-        # midnight = datetime.strptime('2000/01/01 00:00:00.000000', '%d/%m/%y %H:%M:%S.%f')
-        # midnight = midnight.astimezone(tz)
-        after_midnight = after_midnight.time()
-        morning = datetime.datetime(2000, 1, 1, 5, 0, 0, 0, tzinfo=tz)
-        morning = morning.time()
-        during_day = datetime.datetime(2000, 1, 1, 11, 0, 0, 0, tzinfo=tz)
-        during_day = during_day.time()
-        evening = datetime.datetime(2000, 1, 1, 18, 0, 0, 0, tzinfo=tz)
-        evening = evening.time()
-        before_midnight = datetime.datetime(2000, 1, 1, 22, 0, 0, 0, tzinfo=tz)
-        before_midnight = before_midnight.time()
-        if self.time_from >= after_midnight and self.time_from < morning:
-            return "after_midnight"
-        elif self.time_from >= morning and self.time_from < during_day:
-            return "morning"
-        elif self.time_from >= during_day and self.time_from < evening:
-            return "during_day"
-        elif self.time_from >= evening and self.time_from < before_midnight:
-            return "evening"
-        elif self.time_from >= before_midnight:
-            return "before_midnight"
+        if AFTER_MIDNIGHT <= self.time_from < MORNING:
+            return AFTER_MIDNIGHT_TEXT
+        elif MORNING <= self.time_from < DURING_DAY:
+            return DURING_DAY_TEXT
+        elif DURING_DAY <= self.time_from < EVENING:
+            return DURING_DAY_TEXT
+        elif EVENING <= self.time_from < BEFORE_MIDNIGHT:
+            return EVENING_TEXT
+        elif self.time_from >= BEFORE_MIDNIGHT:
+            return BEFORE_MIDNIGHT_TEXT
 
     def __str__(self):
         return F'{self.activity_type}: {self.time_from} to {self.time_to}'

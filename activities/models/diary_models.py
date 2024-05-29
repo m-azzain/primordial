@@ -5,6 +5,7 @@ import datetime
 
 from ..utils import NOTE_LENGTH
 from .activity_models import Activity
+from .activity_models import AFTER_MIDNIGHT, MORNING, tz
 from .models import Place
 
 
@@ -26,6 +27,13 @@ class Diary(models.Model):
     fasting = models.BooleanField(default=False)
 
     note = models.TextField(null=True, blank=True)
+
+    def get_after_midnight_sleep_duration(self):
+        after_midnight_total_time = AFTER_MIDNIGHT.hour - MORNING.hour
+        after_midnight_waking_time = 0
+        for activity in self.after_midnight.all():
+            after_midnight_waking_time += activity.duration
+        return after_midnight_total_time - after_midnight_waking_time
 
     def display_note(self):
         if len(self.note) > NOTE_LENGTH:
