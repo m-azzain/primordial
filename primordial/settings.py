@@ -149,3 +149,5 @@ DEBUG_TOOLBAR_CONFIG = {
     "SHOW_TOOLBAR_CALLBACK": lambda a : False,
     "IS_RUNNING_TESTS": False,
 }
+
+FIXTURE_DIRS = (os.path.join(BASE_DIR, 'fixtures'),)
