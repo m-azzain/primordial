@@ -132,6 +132,21 @@ def get_activity_type_query_for_activity(word):
 
 
 class ActivityAutocomplete(autocomplete.Select2QuerySetView):
+    """
+        Returns Activities that filtered using the provided query string.
+
+        It builds the Q object from the string you provide. The provided string should have the structure:
+        <activity_type>
+        <activity_type>+<related-name>+<related-name>+<related-name>...
+        <activity_type><space><activity_time_in_hours>+<related-name>+<related-name>+<related-name>...
+
+        Note that the four characters (_, -, +, and space) are special; you should use them in their respective places.
+        _ is used in activity_type like 'night_prayer'
+        space is used to separate activity_type from activity_time_in_hours, if you want to provide time. It can also be
+        used if you want to combine many different activity_types.
+        - is used in names like Quran surahs' names or lecture names, for example Al-Nur.
+        + is used to separate different names. The separated name would be combined with OR operations.
+        """
     def get_queryset(self):
         # Don't forget to filter out results depending on the visitor !
         # if not self.request.user.is_authenticated:
@@ -158,6 +173,21 @@ class ActivityAutocomplete(autocomplete.Select2QuerySetView):
 
 
 class ActivityTypeAutocomplete(autocomplete.Select2QuerySetView):
+    """
+    Returns ActivityTypes that filtered using the provided query string.
+
+    It builds the Q object from the string you provide. The provided string should have the structure:
+    <activity_type>
+    <activity_type>+<related-name>+<related-name>+<related-name>...
+    <activity_type><space><activity_time_in_hours>+<related-name>+<related-name>+<related-name>...
+
+    Note that the four characters (_, -, +, and space) are special; you should use them in their respective places.
+    _ is used in activity_type like 'night_prayer'
+    space is used to separate activity_type from activity_time_in_hours, if you want to provide time. It can also be
+    used if you want to combine many different activity_types.
+    - is used in names like Quran surahs' names or lecture names, for example Al-Nur.
+    + is used to separate different names. The separated name would be combined with OR operations.
+    """
     def get_queryset(self):
         qs = ActivityType.objects.all()
         q_builder = Q()

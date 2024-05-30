@@ -147,4 +147,5 @@ INTERNAL_IPS = [
 DEBUG_TOOLBAR_CONFIG = {
     "SHOW_COLLAPSED":   True,
     "SHOW_TOOLBAR_CALLBACK": lambda a : False,
+    "IS_RUNNING_TESTS": False,
 }
