@@ -12,6 +12,12 @@ class DiaryAdmin(admin.ModelAdmin):
     form = DiaryForm
 
 
+class ActivityTypeAdmin(admin.ModelAdmin):
+    # list_display = ['day_period', 'time_from', 'time_to', 'activity_type', 'note']
+    list_filter = ['type']
+    search_fields = ['note']
+
+
 class ActivityAdmin(admin.ModelAdmin):
     form = ActivityForm
     fieldsets = [(None, {"fields": ["time_from", "time_to"]}), ("Type and Note", {"fields": ["activity_type", "note"]})]
@@ -31,7 +37,7 @@ admin.site.register(Person)
 admin.site.register(Purchase)
 admin.site.register(Course)
 admin.site.register(Lecture)
-admin.site.register(ActivityType)
+admin.site.register(ActivityType, ActivityTypeAdmin)
 admin.site.register(Activity, ActivityAdmin)
 admin.site.register(Diary, DiaryAdmin)
 admin.site.register(EventType)

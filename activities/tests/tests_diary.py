@@ -6,7 +6,7 @@ from activities.models import Diary, Activity, ActivityType
 
 # Create your tests here.
 class DiaryTestCase(TestCase):
-    fixtures = ['testdata_031f78ea.json']
+    fixtures = ['testdata_445e1515.json']
 
     def test_diary_after_midnight_sleep_duration_is_positive_and_less_than_or_equal_5(self):
         """"
@@ -17,7 +17,7 @@ class DiaryTestCase(TestCase):
         """
         diaries = Diary.objects.all()
         for diary in diaries:
-            print(diary)
+            # print(diary)
             self.assertGreaterEqual(diary.get_after_midnight_sleep_duration(), 0,
                                     msg='after midnight sleep duration of a diary should be positive')
             self.assertLessEqual(diary.get_after_midnight_sleep_duration(), 5,

@@ -1,7 +1,4 @@
-from django.contrib import admin
 from django.db import models
-from django.utils import timezone
-import datetime
 
 from ..utils import NOTE_LENGTH
 from .activity_models import Activity

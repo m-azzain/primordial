@@ -232,11 +232,11 @@
     "model": "activities.place",
     "pk": 9,
     "fields": {
-        "name_ar": "شرق تقاطع محمد الزاكي مع خاتم المرسلين",
+        "name_ar": "شمال شرق تقاطع محمد الزاكي مع خاتم المرسلين",
         "name_en": "N/A",
         "latitude": null,
         "longitude": null,
-        "note": "إنتقلنا إلي الشقة الجديدة"
+        "note": "شمال شرق تقاطع محمد الزاكي مع خاتم المرسلين\r\nالعمارة رقم 3, تفتح على شارع ختم المرسلين\r\n\r\nإنتقلنا إلي الشقة الجديدة"
     }
 },
 {
@@ -2631,34 +2631,6 @@
 },
 {
     "model": "activities.activitytype",
-    "pk": 27,
-    "fields": {
-        "type": "RECITING_QURAN",
-        "book": null,
-        "programming": null,
-        "moved_to_residence": null,
-        "purchase": null,
-        "lecture": null,
-        "general_topic": null,
-        "visited_doctor": null,
-        "prepared_food": null,
-        "note": "",
-        "night_prayer_surahs": [],
-        "quran_surahs": [
-            25,
-            26,
-            27,
-            20,
-            19
-        ],
-        "visited_persons": [],
-        "received_persons": [],
-        "visited_places": [],
-        "market": []
-    }
-},
-{
-    "model": "activities.activitytype",
     "pk": 28,
     "fields": {
         "type": "REVIEWING_LECTURE",
@@ -3435,30 +3407,6 @@
 },
 {
     "model": "activities.activitytype",
-    "pk": 62,
-    "fields": {
-        "type": "NIGHT_PRAYER",
-        "book": null,
-        "programming": null,
-        "moved_to_residence": null,
-        "purchase": null,
-        "lecture": null,
-        "general_topic": null,
-        "visited_doctor": null,
-        "prepared_food": null,
-        "note": "",
-        "night_prayer_surahs": [
-            21
-        ],
-        "quran_surahs": [],
-        "visited_persons": [],
-        "received_persons": [],
-        "visited_places": [],
-        "market": []
-    }
-},
-{
-    "model": "activities.activitytype",
     "pk": 63,
     "fields": {
         "type": "PREPARING_FOOD",
@@ -4166,7 +4114,7 @@
     "fields": {
         "time_from": "21:00:00",
         "time_to": "22:00:00",
-        "activity_type": 27,
+        "activity_type": 34,
         "note": "",
         "duration": 1.0
     }
@@ -4793,7 +4741,7 @@
     "fields": {
         "time_from": "04:00:00",
         "time_to": "04:30:00",
-        "activity_type": 62,
+        "activity_type": 19,
         "note": "",
         "duration": 0.5
     }
@@ -5023,10 +4971,10 @@
     "pk": 124,
     "fields": {
         "time_from": "03:30:00",
-        "time_to": "04:30:00",
+        "time_to": "05:00:00",
         "activity_type": 40,
         "note": "",
-        "duration": 1.0
+        "duration": 1.5
     }
 },
 {
@@ -5100,10 +5048,10 @@
     "pk": 131,
     "fields": {
         "time_from": "04:00:00",
-        "time_to": "04:30:00",
+        "time_to": "05:00:00",
         "activity_type": 40,
         "note": "",
-        "duration": 0.5
+        "duration": 1.0
     }
 },
 {
@@ -5217,6 +5165,17 @@
     }
 },
 {
+    "model": "activities.activity",
+    "pk": 142,
+    "fields": {
+        "time_from": "14:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 4.0
+    }
+},
+{
     "model": "activities.diary",
     "pk": 1,
     "fields": {
@@ -5264,8 +5223,8 @@
             10
         ],
         "during_day": [
-            12,
-            11
+            11,
+            12
         ],
         "evening": [
             13
@@ -5387,8 +5346,8 @@
         ],
         "during_day": [
             29,
-            34,
-            33
+            33,
+            34
         ],
         "evening": [
             35
@@ -5479,9 +5438,9 @@
             49
         ],
         "during_day": [
-            54,
             50,
-            51
+            51,
+            54
         ],
         "evening": [
             53
@@ -5803,8 +5762,8 @@
             75
         ],
         "during_day": [
-            76,
-            22
+            22,
+            76
         ],
         "evening": [
             77
@@ -6190,8 +6149,8 @@
             95
         ],
         "evening": [
-            44,
-            96
+            96,
+            44
         ],
         "before_midnight": [
             25
@@ -6250,9 +6209,9 @@
             103
         ],
         "during_day": [
+            99,
             104,
-            105,
-            99
+            105
         ],
         "evening": [
             106,
@@ -6315,8 +6274,8 @@
         ],
         "during_day": [
             117,
-            120,
-            118
+            118,
+            120
         ],
         "evening": [
             121,
@@ -6346,8 +6305,8 @@
             103
         ],
         "during_day": [
-            125,
-            117
+            117,
+            125
         ],
         "evening": [
             126,
@@ -6462,7 +6421,7 @@
         "almaghrib": "19:51:00",
         "residence": 9,
         "fasting": false,
-        "note": "",
+        "note": "Practicing Programming:\r\nI am working on Primordial project. Refactored the tests to use initial data through fixures.",
         "after_midnight": [
             73
         ],
@@ -6472,7 +6431,8 @@
         ],
         "during_day": [
             136,
-            141
+            141,
+            142
         ],
         "evening": [
             16
@@ -6487,7 +6447,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$720000$nzPI6ErfikAuXYH1n677QP$oL9UWoTu9ZRCyBXJHcAFV4CKEmAU9dCdYNwR+7XN5PI=",
-        "last_login": "2024-05-29T12:59:19.507Z",
+        "last_login": "2024-05-30T15:10:09.385Z",
         "is_superuser": true,
         "username": "muhammad",
         "first_name": "",
@@ -6506,14 +6466,6 @@
     "fields": {
         "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s2jNh:fE-WA2FegNJnqiA6YWkDn1wuZAS_8jSln75rTwbFffU",
         "expire_date": "2024-05-17T03:14:41.808Z"
-    }
-},
-{
-    "model": "sessions.session",
-    "pk": "1v27kv7d8cgtivg5ulrfwgz3ny4jmbnj",
-    "fields": {
-        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1sCItj:J8Tc5p7_9jcPX83IXKPpSxgYLIu95NYXrLxedUB1HII",
-        "expire_date": "2024-06-12T12:59:19.512Z"
     }
 },
 {
@@ -6562,6 +6514,14 @@
     "fields": {
         "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s3BAc:ScOke8cwJsRo9-wUfuCBp10HtZf5bqzSCic4viCuBhg",
         "expire_date": "2024-05-18T08:55:02.916Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dqlydvkv4h4om27njkg5r1mz6svyu9rg",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1sChPt:Pvy9W15JuIE4ebkF-kiuEJcPJAo9vgRWfYnZQrwNNyI",
+        "expire_date": "2024-06-13T15:10:09.386Z"
     }
 },
 {
