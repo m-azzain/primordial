@@ -10,7 +10,7 @@ import datetime
 
 from .models import (QuranSurah, Book, Programming, Person,
                      Place, Market, Purchase, Lecture, Doctor, Food, GeneralTopic)
-from ..utils import NOTE_LENGTH, STRING_PADDING_LEN, STRING_PADDING_CHAR
+from ..utils import NOTE_LENGTH, STRING_PADDING_LEN, STRING_PADDING_CHAR, get_activity_diary_id_list
 
 AFTER_MIDNIGHT_TEXT = 'After midnight'
 MORNING_TEXT = 'Morning'
@@ -65,6 +65,17 @@ class ActivityType(models.Model):
     prepared_food = models.ForeignKey(Food, on_delete=models.CASCADE, null=True, blank=True)
 
     note = models.TextField(null=True, blank=True)
+
+    def compute_number_of_activities(self):
+        # activities_count = Activity.objects.filter(activity_type__type=self.type).count()
+        activities_count = self.activity_set.count()
+        return activities_count
+
+    def compute_number_of_diaries(self):
+        diary_id_set = set()
+        for activity in self.activity_set.all():
+            diary_id_set = diary_id_set.union(get_activity_diary_id_list(activity))
+        return len(diary_id_set)
 
     def compute_duration(self):
         duration = 0

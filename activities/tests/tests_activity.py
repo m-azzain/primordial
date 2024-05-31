@@ -1,10 +1,11 @@
 from django.test import TestCase
 
 from activities.models import Activity, ActivityType
+from activities.utils import get_activity_diary_id_list, FIXTURES_FILE_NAME
 
 
 class ActivityTestCase(TestCase):
-    fixtures = ['testdata_445e1515.json']
+    fixtures = [FIXTURES_FILE_NAME]
 
     def test_activity_duration_should_be_positive(self):
         """"
@@ -54,3 +55,8 @@ class ActivityTestCase(TestCase):
                     # print(activity_type_surahs, activity_type_2_surahs)
                     self.assertNotEqual(activity_type_surahs, activity_type_2_surahs,
                                         msg='activity_type RECITING_QURAN should be unique')
+
+    def test_an_activity_should_belong_to_at_least_one_diary(self):
+        for activity in Activity.objects.all():
+            activity_diary_id_list = get_activity_diary_id_list(activity)
+            self.assertGreater(len(activity_diary_id_list), 0, msg='Activity should have at least one diary')

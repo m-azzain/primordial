@@ -2573,8 +2573,8 @@
         "note": "",
         "night_prayer_surahs": [],
         "quran_surahs": [
-            27,
-            20
+            20,
+            27
         ],
         "visited_persons": [],
         "received_persons": [],
@@ -2833,9 +2833,9 @@
         "note": "",
         "night_prayer_surahs": [],
         "quran_surahs": [
+            23,
             26,
-            27,
-            23
+            27
         ],
         "visited_persons": [],
         "received_persons": [],
@@ -2903,8 +2903,8 @@
         "note": "",
         "night_prayer_surahs": [],
         "quran_surahs": [
-            24,
-            23
+            23,
+            24
         ],
         "visited_persons": [],
         "received_persons": [],
@@ -3626,8 +3626,37 @@
         "note": "",
         "night_prayer_surahs": [],
         "quran_surahs": [
+            23,
+            25
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": [],
+        "market": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 73,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            21,
+            22,
+            23,
             25,
-            23
+            26,
+            27
         ],
         "visited_persons": [],
         "received_persons": [],
@@ -5176,6 +5205,17 @@
     }
 },
 {
+    "model": "activities.activity",
+    "pk": 143,
+    "fields": {
+        "time_from": "19:00:00",
+        "time_to": "22:00:00",
+        "activity_type": 73,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
     "model": "activities.diary",
     "pk": 1,
     "fields": {
@@ -6030,7 +6070,8 @@
             83
         ],
         "during_day": [
-            88
+            88,
+            89
         ],
         "evening": [
             90
@@ -6433,6 +6474,35 @@
             136,
             141,
             142
+        ],
+        "evening": [
+            143
+        ],
+        "before_midnight": [
+            140
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 43,
+    "fields": {
+        "date": "2024-05-31",
+        "alfajr": "04:11:00",
+        "dawn": "05:55:00",
+        "almaghrib": "19:51:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            46
+        ],
+        "morning": [
+            132,
+            133
+        ],
+        "during_day": [
+            16
         ],
         "evening": [
             16

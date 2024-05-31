@@ -2,11 +2,12 @@ from django.test import TestCase
 from django.utils import timezone
 
 from activities.models import Diary, Activity, ActivityType
+from activities.utils import FIXTURES_FILE_NAME
 
 
 # Create your tests here.
 class DiaryTestCase(TestCase):
-    fixtures = ['testdata_445e1515.json']
+    fixtures = [FIXTURES_FILE_NAME]
 
     def test_diary_after_midnight_sleep_duration_is_positive_and_less_than_or_equal_5(self):
         """"

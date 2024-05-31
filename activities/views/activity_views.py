@@ -32,7 +32,7 @@ class ActivityTypeListView(ListView):
     model = ActivityType
     template_name = "activities/activity_type_list.html"
     context_object_name = "activity_types"
-    paginate_by = 50
+    paginate_by = 20
 
     def get_queryset(self):
         # query = self.request.GET.get("q")

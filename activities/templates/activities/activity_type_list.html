@@ -17,6 +17,8 @@
             <th>ID</th>
             <th>Activity Type</th>
             <th>Total Duration</th>
+            <th>Activity Count</th>
+            <th>Diary Count</th>
         </tr>
         </thead>
         <tbody>
@@ -26,6 +28,12 @@
                 <td>{{ activity_type }}</td>
                 <td>
                     {{ activity_type.compute_duration|floatformat:2 }} &nbsp;hours
+                </td>
+                <td>
+                    {{ activity_type.compute_number_of_activities }} &nbsp;
+                </td>
+                <td>
+                    {{ activity_type.compute_number_of_diaries }} &nbsp;
                 </td>
             </tr>
             
@@ -48,6 +56,13 @@
                 <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
             {% endif %}
         </span>
+    </div>
+    <div>
+        <h6 class="text-primary mt-3">Note</h6>
+        <p class="text-center text-bg-info rounded-3">
+            If the number of activities exceeds the number of diaries in a specific row that means there is long
+            activity(ies) that expands more than one period of a day(there are five periods in a day)
+        </p>
     </div>
 {% endblock %}
 
