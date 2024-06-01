@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .forms import DiaryForm, ActivityForm
+from .forms import DiaryForm, ActivityForm, ActivityTyeForm
 from .models import (PersonName, Place, Market,
                      Person, QuranSurah, Book,
                      Purchase, Institute, Course, Lecture,
@@ -13,7 +13,7 @@ class DiaryAdmin(admin.ModelAdmin):
 
 
 class ActivityTypeAdmin(admin.ModelAdmin):
-    # list_display = ['day_period', 'time_from', 'time_to', 'activity_type', 'note']
+    form = ActivityTyeForm
     list_filter = ['type']
     search_fields = ['note']
 
@@ -45,4 +45,5 @@ admin.site.register(Event)
 admin.site.register(Doctor)
 admin.site.register(Food)
 admin.site.register(GeneralTopic)
+# admin.site.register(ActivityTypeNightPrayerSurah)
 

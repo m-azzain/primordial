@@ -1,7 +1,7 @@
 from django.urls import path
 from .views import (index, DiaryListView, DiaryDetailView,
                     ActivityListView, ActivityDetailView, ActivityTypeListView,
-                    ActivityAutocomplete, ActivityTypeAutocomplete)
+                    ActivityAutocomplete, ActivityTypeAutocomplete, QuranSurahAutocomplete)
 
 # To avoid the error: "ellipse_bikes is not a registered namespace"
 # https://stackoverflow.com/questions/41883254/django-is-not-a-registered-namespace
@@ -17,5 +17,6 @@ urlpatterns = [
 
     path(r'activity_autocomplete/', ActivityAutocomplete.as_view(), name="activity_autocomplete"),
     path(r'activity_type_autocomplete/', ActivityTypeAutocomplete.as_view(), name="activity_type_autocomplete"),
+    path(r"quran_surah/autocomplete/", QuranSurahAutocomplete.as_view(), name="quran_surah_autocomplete"),
 ]
 

@@ -1,5 +1,3 @@
-from functools import reduce
-from time import strptime, time
 
 from django.contrib import admin
 from django.db import models
@@ -48,7 +46,8 @@ class ActivityType(models.Model):
         PREPARING_FOOD = 'PREPARING_FOOD', _('Preparing Food')
     type = models.CharField(max_length=30, choices=TypeChoices.choices, default=TypeChoices.NIGHT_PRAYER)
 
-    night_prayer_surahs = models.ManyToManyField(QuranSurah, related_name="night_prayer_surah_activityType_set", blank=True)
+    night_prayer_surahs = models.ManyToManyField(QuranSurah, related_name="night_prayer_surah_activityType_set",
+                                                 blank=True)
     quran_surahs = models.ManyToManyField(QuranSurah, related_name="recited_quran_surah_activityType_set", blank=True)
     book = models.ForeignKey(Book, on_delete=models.CASCADE, null=True, blank=True)
     programming = models.ForeignKey(Programming, on_delete=models.CASCADE, null=True, blank=True)
@@ -151,10 +150,6 @@ class Activity(models.Model):
     time_to = models.TimeField()
     activity_type = models.ForeignKey(ActivityType, on_delete=models.CASCADE)
     note = models.TextField(null=True, blank=True)
-
-    # def compute_duration(self):
-    #     return ((self.time_to.hour - self.time_from.hour) +
-    #             (self.time_to.minute - self.time_from.minute) / 60)
 
     duration = models.GeneratedField(expression=
                                      (Extract('time_to', 'hour') -

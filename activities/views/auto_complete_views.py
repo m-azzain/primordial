@@ -4,7 +4,7 @@ from dal import autocomplete
 from django.db.models import Q
 from django.utils import timezone
 
-from ..models import Activity, ActivityType
+from ..models import Activity, ActivityType, QuranSurah
 
 
 def get_activity_type_query(word):
@@ -195,6 +195,27 @@ class ActivityTypeAutocomplete(autocomplete.Select2QuerySetView):
             q_args = self.q.strip().split(' ')
             for q in q_args:
                 q_builder = q_builder & get_activity_type_query(q)
+        qs = qs.filter(q_builder)
+        # print(qs.query)
+        return qs
+
+
+
+class QuranSurahAutocomplete(autocomplete.Select2QuerySetView):
+    """
+    Returns QuranSurahs that filtered using the provided query string.
+    It builds the Q object from the string you provide. The provided string should have the structure:
+    <surah_name_in_english><space><surah_name_in_english><space><surah_name_in_english>...
+    The names will be combined with OR operations.
+    The names are case-sensitive.
+    """
+    def get_queryset(self):
+        qs = QuranSurah.objects.all()
+        q_builder = Q()
+        if self.q:
+            q_args = self.q.strip().split(' ')
+            for q in q_args:
+                q_builder = q_builder | Q(name_en__contains=q)
         qs = qs.filter(q_builder)
         # print(qs.query)
         return qs
