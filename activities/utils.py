@@ -2,7 +2,7 @@ NOTE_LENGTH = 200
 STRING_PADDING_LEN = 20
 STRING_PADDING_CHAR = '#'
 
-FIXTURES_FILE_NAME = 'testdata_c7888076.json'
+FIXTURES_FILE_NAME = 'testdata_c3c0a7eb.json'
 
 
 def get_activity_diary_id_list(activity):

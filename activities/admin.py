@@ -45,5 +45,4 @@ admin.site.register(Event)
 admin.site.register(Doctor)
 admin.site.register(Food)
 admin.site.register(GeneralTopic)
-# admin.site.register(ActivityTypeNightPrayerSurah)
 

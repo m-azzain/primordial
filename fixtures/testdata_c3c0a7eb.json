@@ -1864,6 +1864,15 @@
     }
 },
 {
+    "model": "activities.food",
+    "pk": 8,
+    "fields": {
+        "name_ar": "عدسية",
+        "name_en": "N/A",
+        "note": ""
+    }
+},
+{
     "model": "activities.eventtype",
     "pk": 1,
     "fields": {
@@ -2478,9 +2487,9 @@
         "prepared_food": null,
         "note": "",
         "night_prayer_surahs": [
-            24,
             22,
-            23
+            23,
+            24
         ],
         "quran_surahs": [],
         "visited_persons": [],
@@ -3665,6 +3674,130 @@
     }
 },
 {
+    "model": "activities.activitytype",
+    "pk": 74,
+    "fields": {
+        "type": "PREPARING_FOOD",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": 8,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": [],
+        "market": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 83,
+    "fields": {
+        "type": "NIGHT_PRAYER",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [
+            28
+        ],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": [],
+        "market": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 113,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            24,
+            21,
+            22,
+            23
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": [],
+        "market": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 114,
+    "fields": {
+        "type": "NIGHT_PRAYER",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [
+            25,
+            26,
+            27
+        ],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": [],
+        "market": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 115,
+    "fields": {
+        "type": "NIGHT_PRAYER",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [
+            1,
+            2
+        ],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": [],
+        "market": []
+    }
+},
+{
     "model": "activities.activity",
     "pk": 1,
     "fields": {
@@ -3728,17 +3861,6 @@
         "activity_type": 4,
         "note": "The activitity is one long activity separated across two periods of the day. Notice that You should exclude the Jumaah Prayer time and other prayer times and eating times.\r\nYou should also notice the time is longer than the recorded; it is actually till 22:30:00; There is an additional an reocored hour to adjust for the time used for prayers and eating.",
         "duration": 3.5
-    }
-},
-{
-    "model": "activities.activity",
-    "pk": 7,
-    "fields": {
-        "time_from": "00:00:00",
-        "time_to": "03:00:00",
-        "activity_type": 2,
-        "note": "No comment.",
-        "duration": 3.0
     }
 },
 {
@@ -5216,6 +5338,72 @@
     }
 },
 {
+    "model": "activities.activity",
+    "pk": 144,
+    "fields": {
+        "time_from": "15:30:00",
+        "time_to": "16:30:00",
+        "activity_type": 74,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 145,
+    "fields": {
+        "time_from": "04:00:00",
+        "time_to": "05:00:00",
+        "activity_type": 83,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 146,
+    "fields": {
+        "time_from": "17:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 113,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 147,
+    "fields": {
+        "time_from": "03:30:00",
+        "time_to": "05:00:00",
+        "activity_type": 114,
+        "note": "",
+        "duration": 1.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 148,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "10:00:00",
+        "activity_type": 35,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 149,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "14:00:00",
+        "activity_type": 12,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
     "model": "activities.diary",
     "pk": 1,
     "fields": {
@@ -6493,7 +6681,7 @@
         "almaghrib": "19:51:00",
         "residence": 9,
         "fasting": false,
-        "note": "",
+        "note": "Practicing Programming:\r\nWorking on the Activities app of the Primordial project.",
         "after_midnight": [
             46
         ],
@@ -6502,7 +6690,68 @@
             133
         ],
         "during_day": [
-            16
+            42,
+            59,
+            144
+        ],
+        "evening": [
+            135
+        ],
+        "before_midnight": [
+            140
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 44,
+    "fields": {
+        "date": "2024-06-01",
+        "alfajr": "04:10:00",
+        "dawn": "05:55:00",
+        "almaghrib": "19:52:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "Practicing Programming:\r\nWorking on the activities app of the Primordial project.\r\nAdd many to many field validation, see commit  c3c0a7eb",
+        "after_midnight": [
+            145
+        ],
+        "morning": [
+            83,
+            133
+        ],
+        "during_day": [
+            65,
+            146
+        ],
+        "evening": [
+            6
+        ],
+        "before_midnight": [
+            140
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 45,
+    "fields": {
+        "date": "2024-06-02",
+        "alfajr": "04:10:00",
+        "dawn": "05:54:00",
+        "almaghrib": "19:52:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            147
+        ],
+        "morning": [
+            83,
+            148
+        ],
+        "during_day": [
+            149
         ],
         "evening": [
             16

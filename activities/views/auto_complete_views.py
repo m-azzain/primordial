@@ -66,6 +66,8 @@ def get_activity_type_query(word):
         q_builder = q_builder | Q(type=ActivityType.TypeChoices.VISITING_DOCTOR.value)
     if q in 'preparing_food':
         q_builder = q_builder | Q(type=ActivityType.TypeChoices.PREPARING_FOOD.value)
+    if q in 'shaving':
+        q_builder = q_builder | Q(type=ActivityType.TypeChoices.SHAVING.value)
     return q_builder
 
 
@@ -128,6 +130,8 @@ def get_activity_type_query_for_activity(word):
         q_builder = q_builder | Q(activity_type__type=ActivityType.TypeChoices.VISITING_DOCTOR.value)
     if q in 'preparing_food':
         q_builder = q_builder | Q(activity_type__type=ActivityType.TypeChoices.PREPARING_FOOD.value)
+    if q in 'shaving':
+        q_builder = q_builder | Q(activity_type__type=ActivityType.TypeChoices.SHAVING.value)
     return q_builder
 
 
