@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from activities.models import Activity, ActivityType
+from activities.models import Activity
 from activities.utils import get_activity_diary_id_list, FIXTURES_FILE_NAME
 
 

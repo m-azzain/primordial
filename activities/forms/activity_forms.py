@@ -1,8 +1,7 @@
 from dal import autocomplete
-from django.core.exceptions import ValidationError
-from django.forms import ModelForm, ModelMultipleChoiceField
+from django.forms import ModelForm
 
-from activities.models import Activity, ActivityType, QuranSurah
+from activities.models import Activity, ActivityType
 from activities.validators import validate_activity_type_form
 
 
