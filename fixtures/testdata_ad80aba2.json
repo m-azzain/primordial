@@ -1,0 +1,7040 @@
+[
+{
+    "model": "activities.personname",
+    "pk": 1,
+    "fields": {
+        "name_ar": "محمد",
+        "name_en": "muhammad"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 2,
+    "fields": {
+        "name_ar": "أحمد",
+        "name_en": "Ahmad"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 3,
+    "fields": {
+        "name_ar": "عبدالله",
+        "name_en": "Abdu-Allah"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 4,
+    "fields": {
+        "name_ar": "الزين",
+        "name_en": "Azzain"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 5,
+    "fields": {
+        "name_ar": "سبيل",
+        "name_en": "Sabeel"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 6,
+    "fields": {
+        "name_ar": "حسابو",
+        "name_en": "Hasabo"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 7,
+    "fields": {
+        "name_ar": "الطيب",
+        "name_en": "Attayeb"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 8,
+    "fields": {
+        "name_ar": "علي",
+        "name_en": "Ali"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 9,
+    "fields": {
+        "name_ar": "عبدالرحمن",
+        "name_en": "Abdu-Rahman"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 10,
+    "fields": {
+        "name_ar": "مرسال",
+        "name_en": "Mursal"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 11,
+    "fields": {
+        "name_ar": "حسن",
+        "name_en": "Hasan"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 12,
+    "fields": {
+        "name_ar": "عصام",
+        "name_en": "Isam"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 13,
+    "fields": {
+        "name_ar": "فاطمة",
+        "name_en": "Fatimah"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 14,
+    "fields": {
+        "name_ar": "خالد",
+        "name_en": "Khalid"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 15,
+    "fields": {
+        "name_ar": "عبدالكريم",
+        "name_en": "Abdu-Alkareem"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 16,
+    "fields": {
+        "name_ar": "فارغ",
+        "name_en": "null"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 17,
+    "fields": {
+        "name_ar": "مهدي",
+        "name_en": "Mahdi"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 18,
+    "fields": {
+        "name_ar": "أبكر",
+        "name_en": "Abbakar"
+    }
+},
+{
+    "model": "activities.personname",
+    "pk": 19,
+    "fields": {
+        "name_ar": "ادم",
+        "name_en": "Adam"
+    }
+},
+{
+    "model": "activities.place",
+    "pk": 1,
+    "fields": {
+        "name_ar": "مصر- الجيزة - العمرانية غرب - شارع خاتم المرسلين",
+        "name_en": "El-Omraneyah",
+        "latitude": "30.005311",
+        "longitude": "31.199566",
+        "note": "مصر- الجيزة - العمرانية غرب - شارع خاتم المرسلين\r\nتقاطع شارع محمد الزاكي مع عبدالمجيد بدوي\r\n\r\nLat: 30.0053114\r\nLong: 31.199566"
+    }
+},
+{
+    "model": "activities.place",
+    "pk": 3,
+    "fields": {
+        "name_ar": "سوق العتبة",
+        "name_en": "Al-atabah",
+        "latitude": null,
+        "longitude": null,
+        "note": ""
+    }
+},
+{
+    "model": "activities.place",
+    "pk": 4,
+    "fields": {
+        "name_ar": "ميدان التحرير",
+        "name_en": "Atahrir Square",
+        "latitude": null,
+        "longitude": null,
+        "note": ""
+    }
+},
+{
+    "model": "activities.place",
+    "pk": 5,
+    "fields": {
+        "name_ar": "حول العمرانية",
+        "name_en": "Around El-Omraneyah",
+        "latitude": null,
+        "longitude": null,
+        "note": "Walking around where I am staying(Elqiza-El-Omraneyah)"
+    }
+},
+{
+    "model": "activities.place",
+    "pk": 6,
+    "fields": {
+        "name_ar": "داخل مركز البحوث الزراعية",
+        "name_en": "Inside Agriculture Research Center",
+        "latitude": "30.023084",
+        "longitude": "31.190625",
+        "note": "Inside Agriculture Research Center, Boulaq Al Dakrour, Giza Governorate 3715420\r\n\r\nشقة عصام دلي\r\nوعلي عبدالرحمن مرسال"
+    }
+},
+{
+    "model": "activities.place",
+    "pk": 7,
+    "fields": {
+        "name_ar": "شارع الجميل - متفرع من شارع خاتم المرسلين",
+        "name_en": "Al-Gamil st",
+        "latitude": null,
+        "longitude": null,
+        "note": "الجيزة\r\nشارع الجميل - متفرع من شارع خاتم المرسلين\r\nبجوار اسواق علام - اول الهرم\r\n01212291905  01062760507"
+    }
+},
+{
+    "model": "activities.place",
+    "pk": 8,
+    "fields": {
+        "name_ar": "القاهرة شارع المنيا",
+        "name_en": "N/A",
+        "latitude": null,
+        "longitude": null,
+        "note": ""
+    }
+},
+{
+    "model": "activities.place",
+    "pk": 9,
+    "fields": {
+        "name_ar": "شمال شرق تقاطع محمد الزاكي مع خاتم المرسلين",
+        "name_en": "N/A",
+        "latitude": null,
+        "longitude": null,
+        "note": "شمال شرق تقاطع محمد الزاكي مع خاتم المرسلين\r\nالعمارة رقم 3, تفتح على شارع ختم المرسلين\r\n\r\nإنتقلنا إلي الشقة الجديدة"
+    }
+},
+{
+    "model": "activities.market",
+    "pk": 2,
+    "fields": {
+        "name_ar": "سوق العتبة",
+        "name_en": "Al-atabah",
+        "latitude": null,
+        "longitude": null,
+        "note": ""
+    }
+},
+{
+    "model": "activities.market",
+    "pk": 3,
+    "fields": {
+        "name_ar": "محلات حول المنزل",
+        "name_en": "Places Around the Residance",
+        "latitude": null,
+        "longitude": null,
+        "note": "Places around the residance.\r\nThe residance is El-Giza-El-Omraneyah"
+    }
+},
+{
+    "model": "activities.market",
+    "pk": 4,
+    "fields": {
+        "name_ar": "نظارة",
+        "name_en": "Glasses",
+        "latitude": null,
+        "longitude": null,
+        "note": ""
+    }
+},
+{
+    "model": "activities.market",
+    "pk": 5,
+    "fields": {
+        "name_ar": "(محلات محمد حسن(القاهرة شارع المنيا",
+        "name_en": "N/A",
+        "latitude": null,
+        "longitude": null,
+        "note": ""
+    }
+},
+{
+    "model": "activities.market",
+    "pk": 6,
+    "fields": {
+        "name_ar": "تقاطع شارع عمر مكرم مع شارع الهرم",
+        "name_en": "N/A",
+        "latitude": null,
+        "longitude": null,
+        "note": "الجيزة - العمرانية الغربية\r\nتقاطع شارع عمر مكرم مع شارع الهرم\r\nغرب التقاطع"
+    }
+},
+{
+    "model": "activities.market",
+    "pk": 7,
+    "fields": {
+        "name_ar": "غرب شارع البحر الاعظم وجنوب شارع الهرم",
+        "name_en": "N/A",
+        "latitude": null,
+        "longitude": null,
+        "note": ""
+    }
+},
+{
+    "model": "activities.market",
+    "pk": 8,
+    "fields": {
+        "name_ar": "زايد للأدوات المنزلية - شارع الثلاثيني",
+        "name_en": "N/A",
+        "latitude": null,
+        "longitude": null,
+        "note": ""
+    }
+},
+{
+    "model": "activities.market",
+    "pk": 9,
+    "fields": {
+        "name_ar": "المنطقة بين شارع خاتم المرسلين وشارع الثلاثيني",
+        "name_en": "N/A",
+        "latitude": null,
+        "longitude": null,
+        "note": ""
+    }
+},
+{
+    "model": "activities.person",
+    "pk": 1,
+    "fields": {
+        "first_name": 1,
+        "second_name": 4,
+        "third_name": 1,
+        "fourth_name": 2,
+        "fifth_name": 5,
+        "sixth_name": 6,
+        "seventh_name": 7,
+        "current_residence": null,
+        "prior_residences": []
+    }
+},
+{
+    "model": "activities.person",
+    "pk": 2,
+    "fields": {
+        "first_name": 8,
+        "second_name": 9,
+        "third_name": 10,
+        "fourth_name": 8,
+        "fifth_name": null,
+        "sixth_name": null,
+        "seventh_name": null,
+        "current_residence": 6,
+        "prior_residences": []
+    }
+},
+{
+    "model": "activities.person",
+    "pk": 3,
+    "fields": {
+        "first_name": 12,
+        "second_name": 3,
+        "third_name": 1,
+        "fourth_name": 6,
+        "fifth_name": null,
+        "sixth_name": null,
+        "seventh_name": null,
+        "current_residence": 6,
+        "prior_residences": []
+    }
+},
+{
+    "model": "activities.person",
+    "pk": 4,
+    "fields": {
+        "first_name": 13,
+        "second_name": 14,
+        "third_name": 15,
+        "fourth_name": 16,
+        "fifth_name": null,
+        "sixth_name": null,
+        "seventh_name": null,
+        "current_residence": null,
+        "prior_residences": []
+    }
+},
+{
+    "model": "activities.person",
+    "pk": 5,
+    "fields": {
+        "first_name": 17,
+        "second_name": 9,
+        "third_name": 18,
+        "fourth_name": 19,
+        "fifth_name": null,
+        "sixth_name": null,
+        "seventh_name": null,
+        "current_residence": 1,
+        "prior_residences": []
+    }
+},
+{
+    "model": "activities.doctor",
+    "pk": 1,
+    "fields": {
+        "person": 4,
+        "clinic": 7
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 1,
+    "fields": {
+        "name_ar": "الفاتحة",
+        "name_en": "Al-Fatihah",
+        "number": 1
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 2,
+    "fields": {
+        "name_ar": "البقرة",
+        "name_en": "Al-Baqarah",
+        "number": 2
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 3,
+    "fields": {
+        "name_ar": "آل عمران",
+        "name_en": "Al-‘Imran",
+        "number": 3
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 4,
+    "fields": {
+        "name_ar": "النساء",
+        "name_en": "An-Nisa’",
+        "number": 4
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 5,
+    "fields": {
+        "name_ar": "المائدة",
+        "name_en": "Al-Ma’idah",
+        "number": 5
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 6,
+    "fields": {
+        "name_ar": "الأنعام",
+        "name_en": "Al-An’am",
+        "number": 6
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 7,
+    "fields": {
+        "name_ar": "الأعراف",
+        "name_en": "Al-A’raf",
+        "number": 7
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 8,
+    "fields": {
+        "name_ar": "الأنفال",
+        "name_en": "Al-Anfal",
+        "number": 8
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 9,
+    "fields": {
+        "name_ar": "التوبة",
+        "name_en": "Al-Bara’at / At-Taubah",
+        "number": 9
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 10,
+    "fields": {
+        "name_ar": "يونس",
+        "name_en": "Yunus",
+        "number": 10
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 11,
+    "fields": {
+        "name_ar": "هود",
+        "name_en": "Hud",
+        "number": 11
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 12,
+    "fields": {
+        "name_ar": "يوسف",
+        "name_en": "Yusuf",
+        "number": 12
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 13,
+    "fields": {
+        "name_ar": "الرعد",
+        "name_en": "Ar-Ra’d",
+        "number": 13
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 14,
+    "fields": {
+        "name_ar": "إبراهيم",
+        "name_en": "Ibrahim",
+        "number": 14
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 15,
+    "fields": {
+        "name_ar": "الحجر",
+        "name_en": "Al-Hijr",
+        "number": 15
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 16,
+    "fields": {
+        "name_ar": "النحل",
+        "name_en": "An-Nahl",
+        "number": 16
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 17,
+    "fields": {
+        "name_ar": "الإسراء",
+        "name_en": "Bani Isra’il",
+        "number": 17
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 18,
+    "fields": {
+        "name_ar": "الكهف",
+        "name_en": "Al-Kahf",
+        "number": 18
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 19,
+    "fields": {
+        "name_ar": "مريم",
+        "name_en": "Maryam",
+        "number": 19
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 20,
+    "fields": {
+        "name_ar": "طه",
+        "name_en": "Ta Ha",
+        "number": 20
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 21,
+    "fields": {
+        "name_ar": "الأنبياء",
+        "name_en": "Al-Anbiya’",
+        "number": 21
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 22,
+    "fields": {
+        "name_ar": "الحج",
+        "name_en": "Al-Hajj",
+        "number": 22
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 23,
+    "fields": {
+        "name_ar": "المؤمنون",
+        "name_en": "Al-Mu’minun",
+        "number": 23
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 24,
+    "fields": {
+        "name_ar": "النور",
+        "name_en": "An-Nur",
+        "number": 24
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 25,
+    "fields": {
+        "name_ar": "الفرقان",
+        "name_en": "Al-Furqan",
+        "number": 25
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 26,
+    "fields": {
+        "name_ar": "الشعراء",
+        "name_en": "Ash-Shu’ara’",
+        "number": 26
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 27,
+    "fields": {
+        "name_ar": "النمل",
+        "name_en": "An-Naml",
+        "number": 27
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 28,
+    "fields": {
+        "name_ar": "القصص",
+        "name_en": "Al-Qasas",
+        "number": 28
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 29,
+    "fields": {
+        "name_ar": "العنكبوت",
+        "name_en": "Al-‘Ankabut",
+        "number": 29
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 30,
+    "fields": {
+        "name_ar": "الروم",
+        "name_en": "Ar-Rum",
+        "number": 30
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 31,
+    "fields": {
+        "name_ar": "لقمان",
+        "name_en": "Luqman",
+        "number": 31
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 32,
+    "fields": {
+        "name_ar": "السجدة",
+        "name_en": "As-Sajdah",
+        "number": 32
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 33,
+    "fields": {
+        "name_ar": "الأحزاب",
+        "name_en": "Al-Ahzab",
+        "number": 33
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 34,
+    "fields": {
+        "name_ar": "سبأ",
+        "name_en": "Al-Saba’",
+        "number": 34
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 35,
+    "fields": {
+        "name_ar": "فاطر",
+        "name_en": "Al-Fatir",
+        "number": 35
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 36,
+    "fields": {
+        "name_ar": "يس",
+        "name_en": "Ya Sin",
+        "number": 36
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 37,
+    "fields": {
+        "name_ar": "الصافات",
+        "name_en": "As-Saffat",
+        "number": 37
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 38,
+    "fields": {
+        "name_ar": "ص",
+        "name_en": "Sad",
+        "number": 38
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 39,
+    "fields": {
+        "name_ar": "الزمر",
+        "name_en": "Az-Zumar",
+        "number": 39
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 40,
+    "fields": {
+        "name_ar": "غافر",
+        "name_en": "Al-Mu’min",
+        "number": 40
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 41,
+    "fields": {
+        "name_ar": "فصلت",
+        "name_en": "Ha Mim",
+        "number": 41
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 42,
+    "fields": {
+        "name_ar": "الشورى",
+        "name_en": "Ash-Shura",
+        "number": 42
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 43,
+    "fields": {
+        "name_ar": "الزخرف",
+        "name_en": "Az-Zukhruf",
+        "number": 43
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 44,
+    "fields": {
+        "name_ar": "الدخان",
+        "name_en": "Ad-Dukhan",
+        "number": 44
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 45,
+    "fields": {
+        "name_ar": "الجاثية",
+        "name_en": "Al-Jathiyah",
+        "number": 45
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 46,
+    "fields": {
+        "name_ar": "الأحقاف",
+        "name_en": "Al-Ahqaf",
+        "number": 46
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 47,
+    "fields": {
+        "name_ar": "محمد",
+        "name_en": "Muhammad",
+        "number": 47
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 48,
+    "fields": {
+        "name_ar": "الفتح",
+        "name_en": "Al-Fath",
+        "number": 48
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 49,
+    "fields": {
+        "name_ar": "الحجرات",
+        "name_en": "Al-Hujurat",
+        "number": 49
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 50,
+    "fields": {
+        "name_ar": "ق",
+        "name_en": "Qaf",
+        "number": 50
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 51,
+    "fields": {
+        "name_ar": "الذاريات",
+        "name_en": "Ad-Dhariyat",
+        "number": 51
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 52,
+    "fields": {
+        "name_ar": "الطور",
+        "name_en": "At-Tur",
+        "number": 52
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 53,
+    "fields": {
+        "name_ar": "النجم",
+        "name_en": "An-Najm",
+        "number": 53
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 54,
+    "fields": {
+        "name_ar": "القمر",
+        "name_en": "Al-Qamar",
+        "number": 54
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 55,
+    "fields": {
+        "name_ar": "الرحمن",
+        "name_en": "Ar-Rahman",
+        "number": 55
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 56,
+    "fields": {
+        "name_ar": "الواقعة",
+        "name_en": "Al-Waqi’ah",
+        "number": 56
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 57,
+    "fields": {
+        "name_ar": "الحديد",
+        "name_en": "Al-Hadid",
+        "number": 57
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 58,
+    "fields": {
+        "name_ar": "المجادلة",
+        "name_en": "Al-Mujadilah",
+        "number": 58
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 59,
+    "fields": {
+        "name_ar": "الحشر",
+        "name_en": "Al-Hashr",
+        "number": 59
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 60,
+    "fields": {
+        "name_ar": "الممتحنة",
+        "name_en": "Al-Mumtahanah",
+        "number": 60
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 61,
+    "fields": {
+        "name_ar": "الصف",
+        "name_en": "As-Saff",
+        "number": 61
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 62,
+    "fields": {
+        "name_ar": "الجمعة",
+        "name_en": "Al-Jumu’ah",
+        "number": 62
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 63,
+    "fields": {
+        "name_ar": "المنافقون",
+        "name_en": "Al-Munafiqun",
+        "number": 63
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 64,
+    "fields": {
+        "name_ar": "التغابن",
+        "name_en": "At-Taghabun",
+        "number": 64
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 65,
+    "fields": {
+        "name_ar": "الطلاق",
+        "name_en": "At-Talaq",
+        "number": 65
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 66,
+    "fields": {
+        "name_ar": "التحريم",
+        "name_en": "At-Tahrim",
+        "number": 66
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 67,
+    "fields": {
+        "name_ar": "الملك",
+        "name_en": "Al-Mulk",
+        "number": 67
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 68,
+    "fields": {
+        "name_ar": "القلم",
+        "name_en": "Al-Qalam",
+        "number": 68
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 69,
+    "fields": {
+        "name_ar": "الحاقة",
+        "name_en": "Al-Haqqah",
+        "number": 69
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 70,
+    "fields": {
+        "name_ar": "المعارج",
+        "name_en": "Al-Ma’arij",
+        "number": 70
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 71,
+    "fields": {
+        "name_ar": "نوح",
+        "name_en": "Nuh",
+        "number": 71
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 72,
+    "fields": {
+        "name_ar": "الجن",
+        "name_en": "Al-Jinn",
+        "number": 72
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 73,
+    "fields": {
+        "name_ar": "المزمل",
+        "name_en": "Al-Muzzammil",
+        "number": 73
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 74,
+    "fields": {
+        "name_ar": "المدثر",
+        "name_en": "Al-Muddaththir",
+        "number": 74
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 75,
+    "fields": {
+        "name_ar": "القيامة",
+        "name_en": "Al-Qiyamah",
+        "number": 75
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 76,
+    "fields": {
+        "name_ar": "الإنسان",
+        "name_en": "Al-Insan",
+        "number": 76
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 77,
+    "fields": {
+        "name_ar": "المرسلات",
+        "name_en": "Al-Mursalat",
+        "number": 77
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 78,
+    "fields": {
+        "name_ar": "النبأ",
+        "name_en": "An-Naba’",
+        "number": 78
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 79,
+    "fields": {
+        "name_ar": "النازعات",
+        "name_en": "An-Nazi’at",
+        "number": 79
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 80,
+    "fields": {
+        "name_ar": "عبس",
+        "name_en": "‘Abasa",
+        "number": 80
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 81,
+    "fields": {
+        "name_ar": "التكوير",
+        "name_en": "At-Takwir",
+        "number": 81
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 82,
+    "fields": {
+        "name_ar": "الإنفطار",
+        "name_en": "Al-Infitar",
+        "number": 82
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 83,
+    "fields": {
+        "name_ar": "المطففين",
+        "name_en": "At-Tatfif",
+        "number": 83
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 84,
+    "fields": {
+        "name_ar": "الانشقاق",
+        "name_en": "Al-Inshiqaq",
+        "number": 84
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 85,
+    "fields": {
+        "name_ar": "البروج",
+        "name_en": "Al-Buruj",
+        "number": 85
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 86,
+    "fields": {
+        "name_ar": "الطارق",
+        "name_en": "At-Tariq",
+        "number": 86
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 87,
+    "fields": {
+        "name_ar": "الأعلى",
+        "name_en": "Al-A’la",
+        "number": 87
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 88,
+    "fields": {
+        "name_ar": "الغاشية",
+        "name_en": "Al-Ghashiyah",
+        "number": 88
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 89,
+    "fields": {
+        "name_ar": "الفجر",
+        "name_en": "Al-Fajr",
+        "number": 89
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 90,
+    "fields": {
+        "name_ar": "البلد",
+        "name_en": "Al-Balad",
+        "number": 90
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 91,
+    "fields": {
+        "name_ar": "الشمس",
+        "name_en": "Ash-Shams",
+        "number": 91
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 92,
+    "fields": {
+        "name_ar": "الليل",
+        "name_en": "Al-Lail",
+        "number": 92
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 93,
+    "fields": {
+        "name_ar": "الضحى",
+        "name_en": "Ad-Duha",
+        "number": 93
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 94,
+    "fields": {
+        "name_ar": "الشرح",
+        "name_en": "Al-Inshirah",
+        "number": 94
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 95,
+    "fields": {
+        "name_ar": "التين",
+        "name_en": "At-Tin",
+        "number": 95
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 96,
+    "fields": {
+        "name_ar": "العلق",
+        "name_en": "Al-‘Alaq",
+        "number": 96
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 97,
+    "fields": {
+        "name_ar": "القدر",
+        "name_en": "Al-Qadr",
+        "number": 97
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 98,
+    "fields": {
+        "name_ar": "البينة",
+        "name_en": "Al-Bayyinah",
+        "number": 98
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 99,
+    "fields": {
+        "name_ar": "الزلزلة",
+        "name_en": "Al-Zilzal",
+        "number": 99
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 100,
+    "fields": {
+        "name_ar": "العاديات",
+        "name_en": "Al-‘Adiyat",
+        "number": 100
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 101,
+    "fields": {
+        "name_ar": "القارعة",
+        "name_en": "Al-Qari’ah",
+        "number": 101
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 102,
+    "fields": {
+        "name_ar": "التكاثر",
+        "name_en": "At-Takathur",
+        "number": 102
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 103,
+    "fields": {
+        "name_ar": "العصر",
+        "name_en": "Al-‘Asr",
+        "number": 103
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 104,
+    "fields": {
+        "name_ar": "الهمزة",
+        "name_en": "Al-Humazah",
+        "number": 104
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 105,
+    "fields": {
+        "name_ar": "الفيل",
+        "name_en": "Al-Fil",
+        "number": 105
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 106,
+    "fields": {
+        "name_ar": "قريش",
+        "name_en": "Al-Quraish",
+        "number": 106
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 107,
+    "fields": {
+        "name_ar": "الماعون",
+        "name_en": "Al-Ma’un",
+        "number": 107
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 108,
+    "fields": {
+        "name_ar": "الكوثر",
+        "name_en": "Al-Kauthar",
+        "number": 108
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 109,
+    "fields": {
+        "name_ar": "الكافرون",
+        "name_en": "Al-Kafirun",
+        "number": 109
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 110,
+    "fields": {
+        "name_ar": "النصر",
+        "name_en": "An-Nasr",
+        "number": 110
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 111,
+    "fields": {
+        "name_ar": "المسد",
+        "name_en": "Al-Lahab",
+        "number": 111
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 112,
+    "fields": {
+        "name_ar": "الإخلاص",
+        "name_en": "Al-Ikhlas",
+        "number": 112
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 113,
+    "fields": {
+        "name_ar": "الفلق",
+        "name_en": "Al-Falaq",
+        "number": 113
+    }
+},
+{
+    "model": "activities.quransurah",
+    "pk": 114,
+    "fields": {
+        "name_ar": "الناس",
+        "name_en": "An-Nas",
+        "number": 114
+    }
+},
+{
+    "model": "activities.book",
+    "pk": 1,
+    "fields": {
+        "name_ar": "أسمبلي",
+        "name_en": "Assembly Language for x86 processors 7th edition",
+        "note": "أسمبلي"
+    }
+},
+{
+    "model": "activities.book",
+    "pk": 3,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Django Documentation (Release 5.0.5.dev20240412152203)",
+        "note": "Django Software Foundation\r\nApril 12, 2024\r\nhttps://docs.djangoproject.com/en/5.0/"
+    }
+},
+{
+    "model": "activities.purchase",
+    "pk": 1,
+    "fields": {
+        "name_ar": "مكنة حلاقة",
+        "name_en": "Shaving Machine",
+        "price": "450.0000",
+        "currency": "EGP",
+        "note": "The price is in EGP."
+    }
+},
+{
+    "model": "activities.purchase",
+    "pk": 2,
+    "fields": {
+        "name_ar": "مستهلكات يومية",
+        "name_en": "Daily Consumables",
+        "price": "450.0000",
+        "currency": "EGP",
+        "note": "كيلو البصل ب 15 جنيه مصري - 4 كيلو\r\nكيلو البطاطس ب 15 جنيه مصري – 2 كيلو\r\nكيلو الفول ب 48 جنيه مصري - 2 كيلو\r\nكيلو السكر ب 38 جنيه مصري- 2 كيلو\r\nعلبة طحينة متوسطة ب 48 جنية مصري\r\nعلبة شاي (هناك العديد من المقاسات) ب ... \r\nكرتونة لبن نيدو (داخلة ظرف) ب ... – 2 كرتونة"
+    }
+},
+{
+    "model": "activities.purchase",
+    "pk": 3,
+    "fields": {
+        "name_ar": "ملابس",
+        "name_en": "Clothes",
+        "price": "3400.0000",
+        "currency": "EGP",
+        "note": "2 T-Shirts\r\n2 Trousers\r\n2  Trousers(Trainings)\r\n2 Shirts\r\n\r\nCost 3400 EGP\r\n\r\nThere are also some consumables:\r\nJam, Tahnia, Chocolates (200 EGP)\r\nPapers which used for packaging (1 kilo by 50 EGP)"
+    }
+},
+{
+    "model": "activities.purchase",
+    "pk": 4,
+    "fields": {
+        "name_ar": "نظارة",
+        "name_en": "Glasses",
+        "price": "750.0000",
+        "currency": "EGP",
+        "note": ""
+    }
+},
+{
+    "model": "activities.purchase",
+    "pk": 5,
+    "fields": {
+        "name_ar": "جوز ملايات وجوز خدوديات",
+        "name_en": "N/A",
+        "price": "570.0000",
+        "currency": "EGP",
+        "note": "EGP"
+    }
+},
+{
+    "model": "activities.purchase",
+    "pk": 6,
+    "fields": {
+        "name_ar": "حافظة ماء, جردل ,طشت ,ورق مطبخ",
+        "name_en": "N/A",
+        "price": "1015.0000",
+        "currency": "EGP",
+        "note": "EGP"
+    }
+},
+{
+    "model": "activities.purchase",
+    "pk": 7,
+    "fields": {
+        "name_ar": "حلة, سخان(غلاية), صينية",
+        "name_en": "N/A",
+        "price": "1240.0000",
+        "currency": "EGP",
+        "note": ""
+    }
+},
+{
+    "model": "activities.purchase",
+    "pk": 8,
+    "fields": {
+        "name_ar": "خلاط كهربائي",
+        "name_en": "N/A",
+        "price": "990.0000",
+        "currency": "EGP",
+        "note": "The price is in EGP"
+    }
+},
+{
+    "model": "activities.purchase",
+    "pk": 9,
+    "fields": {
+        "name_ar": "مكوة",
+        "name_en": "N/A",
+        "price": "400.0000",
+        "currency": "EGP",
+        "note": ""
+    }
+},
+{
+    "model": "activities.purchase",
+    "pk": 10,
+    "fields": {
+        "name_ar": "مكواه",
+        "name_en": "N/A",
+        "price": "750.0000",
+        "currency": "EGP",
+        "note": ""
+    }
+},
+{
+    "model": "activities.institute",
+    "pk": 2,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Berkeley Electrical Engineering & Computer Sciences",
+        "note": "University of California, Berkeley"
+    }
+},
+{
+    "model": "activities.institute",
+    "pk": 3,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "MIT",
+        "note": "Massachusetts Institute of Technology"
+    }
+},
+{
+    "model": "activities.generaltopic",
+    "pk": 1,
+    "fields": {
+        "title": "Spluttering In Thin Layer Materials",
+        "url": "https://www.youtube.com/watch?v=oTRmC0eJnYs&list=PLbRMhDVUMngdZJZbuXzKbXfftnpWHGRXL&index=47",
+        "note": "More links:\r\nhttps://www.sputtertargets.net/blog/everything-you-need-to-know-about-molybdenum-sputter-targets.html"
+    }
+},
+{
+    "model": "activities.course",
+    "pk": 2,
+    "fields": {
+        "institute": 2,
+        "name_ar": "N/A",
+        "name_en": "EECS 16A (FALL 2022)",
+        "note": "Designing Information Devices and Systems I\r\nAna Arias and Miki Lusting"
+    }
+},
+{
+    "model": "activities.course",
+    "pk": 3,
+    "fields": {
+        "institute": 3,
+        "name_ar": "N/A",
+        "name_en": "18.02 Multivariable Calculus",
+        "note": "18.02 Multivariable Calculus\r\nFall 2007\r\nDenis Auroux"
+    }
+},
+{
+    "model": "activities.course",
+    "pk": 4,
+    "fields": {
+        "institute": 2,
+        "name_ar": "N/A",
+        "name_en": "EECS 16B (FALL 2023)",
+        "note": "Designing Information Devices and Systems II\r\n\r\nProfs: Ming Wu, Shyam Parekh, Jean-Paul Tennant"
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 2,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 8A",
+        "course": 2,
+        "note": "Thevenin and Norton Equivalent.\r\nFirst time watching the video."
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 3,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 8B",
+        "course": 2,
+        "note": "Capacitors\r\nNote 16"
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 4,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 9A",
+        "course": 2,
+        "note": "Capacitance Modeling and Comparators\r\nNote 16 and 17"
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 5,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 9B",
+        "course": 2,
+        "note": "Capacitance Model and Comparator\r\nModule 2\r\nLecture 9\r\nNote(18)"
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 6,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 10A",
+        "course": 2,
+        "note": "Module 2\r\nLecture 10\r\nNegative Feedback\r\nNote 17 and 17B"
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 7,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 01",
+        "course": 3,
+        "note": "Dot Product"
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 8,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 11A",
+        "course": 2,
+        "note": "Module 2 Lecture 12\r\nDesign Procedures and Examples\r\nNote 20\r\n\r\nNot dense."
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 9,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 10B",
+        "course": 2,
+        "note": "Module 2 Lecture 11\r\nOp-Amp Circuit Analysis\r\nNote 19"
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 10,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 11B",
+        "course": 2,
+        "note": ""
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 11,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 12A",
+        "course": 2,
+        "note": ""
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 12,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 13A",
+        "course": 2,
+        "note": ""
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 13,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 14A",
+        "course": 2,
+        "note": ""
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 14,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 14B",
+        "course": 2,
+        "note": ""
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 15,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 01",
+        "course": 4,
+        "note": ""
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 16,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 5A",
+        "course": 2,
+        "note": ""
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 17,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 7A",
+        "course": 2,
+        "note": ""
+    }
+},
+{
+    "model": "activities.lecture",
+    "pk": 18,
+    "fields": {
+        "name_ar": "N/A",
+        "name_en": "Lecture 7B",
+        "course": 2,
+        "note": ""
+    }
+},
+{
+    "model": "activities.programming",
+    "pk": 2,
+    "fields": {
+        "language": "Python",
+        "framework": "Django",
+        "note": "https://docs.djangoproject.com/en/5.0/"
+    }
+},
+{
+    "model": "activities.food",
+    "pk": 1,
+    "fields": {
+        "name_ar": "عدس + رز بالدجاج",
+        "name_en": "Lentils + Rice with Chicken",
+        "note": ""
+    }
+},
+{
+    "model": "activities.food",
+    "pk": 2,
+    "fields": {
+        "name_ar": "بيض مقلي",
+        "name_en": "Fried Eggs",
+        "note": ""
+    }
+},
+{
+    "model": "activities.food",
+    "pk": 3,
+    "fields": {
+        "name_ar": "فول + رز بالدجاج",
+        "name_en": "Fava Beans + Rice with Chicken",
+        "note": ""
+    }
+},
+{
+    "model": "activities.food",
+    "pk": 4,
+    "fields": {
+        "name_ar": "بيض مسلوق",
+        "name_en": "Boiled Eggs",
+        "note": ""
+    }
+},
+{
+    "model": "activities.food",
+    "pk": 5,
+    "fields": {
+        "name_ar": "فول + زبادي",
+        "name_en": "Fava Beans + Yogurt",
+        "note": ""
+    }
+},
+{
+    "model": "activities.food",
+    "pk": 6,
+    "fields": {
+        "name_ar": "عدس",
+        "name_en": "Lentils",
+        "note": ""
+    }
+},
+{
+    "model": "activities.food",
+    "pk": 7,
+    "fields": {
+        "name_ar": "فول",
+        "name_en": "Fava Beans",
+        "note": ""
+    }
+},
+{
+    "model": "activities.food",
+    "pk": 8,
+    "fields": {
+        "name_ar": "عدسية",
+        "name_en": "N/A",
+        "note": ""
+    }
+},
+{
+    "model": "activities.food",
+    "pk": 9,
+    "fields": {
+        "name_ar": "فول + بيض مسلوق",
+        "name_en": "Fava Beans + Boiled Eggs",
+        "note": ""
+    }
+},
+{
+    "model": "activities.eventtype",
+    "pk": 1,
+    "fields": {
+        "type": "Death",
+        "note": "A person death"
+    }
+},
+{
+    "model": "activities.eventtype",
+    "pk": 2,
+    "fields": {
+        "type": "War",
+        "note": "Starting of a war."
+    }
+},
+{
+    "model": "activities.eventtype",
+    "pk": 3,
+    "fields": {
+        "type": "Marrage",
+        "note": "Marrage"
+    }
+},
+{
+    "model": "activities.eventtype",
+    "pk": 4,
+    "fields": {
+        "type": "Time Zone Shift",
+        "note": "Depends on whrere you live."
+    }
+},
+{
+    "model": "activities.eventtype",
+    "pk": 5,
+    "fields": {
+        "type": "Change Of Residence",
+        "note": "Change Of Residence"
+    }
+},
+{
+    "model": "activities.eventtype",
+    "pk": 6,
+    "fields": {
+        "type": "Whether Change",
+        "note": "Whether Change"
+    }
+},
+{
+    "model": "activities.event",
+    "pk": 1,
+    "fields": {
+        "date": "2022-10-10",
+        "type": 1,
+        "place": null,
+        "note": "Khadija(ninni, Um-maryam) Sabeel Hasabu \r\nDirected descendants: \r\nOmar Jabba, Hawa Jabba, Haleema(Isam's mother), Izzu, Fatimah \r\nGrand children:\r\nmubarak Adam Hassabu, Musa Ali Tibin, Isam Abdullah Saeed"
+    }
+},
+{
+    "model": "activities.event",
+    "pk": 2,
+    "fields": {
+        "date": "2022-12-03",
+        "type": 1,
+        "place": null,
+        "note": "aunti sameera musa"
+    }
+},
+{
+    "model": "activities.event",
+    "pk": 3,
+    "fields": {
+        "date": "2023-01-23",
+        "type": 1,
+        "place": null,
+        "note": "Ahmad Adam Musa"
+    }
+},
+{
+    "model": "activities.event",
+    "pk": 4,
+    "fields": {
+        "date": "2023-01-13",
+        "type": 1,
+        "place": null,
+        "note": "Ahmad Ashakhe"
+    }
+},
+{
+    "model": "activities.event",
+    "pk": 5,
+    "fields": {
+        "date": "2023-04-15",
+        "type": 2,
+        "place": null,
+        "note": "During this month there is a conflict between the military and aldaām alsareeå. This conflict started in Ramadan and still in progress(now few days after the Ead; exactly today is Wednesday 26 April). It   encompassed all the cities and affected people life (markets been closed, the same for schools, government institutions...). Not known when it will end!"
+    }
+},
+{
+    "model": "activities.event",
+    "pk": 6,
+    "fields": {
+        "date": "2023-06-16",
+        "type": 3,
+        "place": null,
+        "note": "Uncle Adam got married to\r\nBadrya isamayl yaqoup salah"
+    }
+},
+{
+    "model": "activities.event",
+    "pk": 7,
+    "fields": {
+        "date": "2024-04-26",
+        "type": 4,
+        "place": null,
+        "note": "The  Cairo Time zone has been shifted from GMT+2 to GMT+3. The change took affect from the midnight"
+    }
+},
+{
+    "model": "activities.event",
+    "pk": 8,
+    "fields": {
+        "date": "2024-04-28",
+        "type": 1,
+        "place": null,
+        "note": "Uncle Adam's wife Badrya isamayl yaqoup salah"
+    }
+},
+{
+    "model": "activities.event",
+    "pk": 9,
+    "fields": {
+        "date": "2024-05-16",
+        "type": 5,
+        "place": null,
+        "note": ".إنتقلنا مع الوالد إلي شقة جديدة\r\n-\r\nالجيزة - العمرانية الغربية\r\nشرق تقاطع شارع محمد الزاكي مع شارع خاتم المرسلين\r\nالعمارة بتفتح على شارع خاتم المرسلين"
+    }
+},
+{
+    "model": "activities.event",
+    "pk": 10,
+    "fields": {
+        "date": "2024-05-18",
+        "type": 6,
+        "place": 9,
+        "note": "Summer is comming.\r\nThe wether is started to getting hot; morning (5:00am) 27 celsius degree , evening (5:00pm) 40 celsius degree."
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 1,
+    "fields": {
+        "type": "NIGHT_PRAYER",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [
+            21,
+            22
+        ],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 2,
+    "fields": {
+        "type": "SLEEPING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 3,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 2,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "Not dense.",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 4,
+    "fields": {
+        "type": "PRACTICING_PROGRAMMING",
+        "book": null,
+        "programming": 2,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 5,
+    "fields": {
+        "type": "NIGHT_PRAYER",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [
+            21,
+            22,
+            23
+        ],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 6,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            24
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 7,
+    "fields": {
+        "type": "PURCHASING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": 2,
+        "purchase": 1,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 8,
+    "fields": {
+        "type": "READING_BOOK",
+        "book": 1,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 9,
+    "fields": {
+        "type": "RELAXING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 10,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            26
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 11,
+    "fields": {
+        "type": "NIGHT_PRAYER",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [
+            24,
+            21,
+            22,
+            23
+        ],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 12,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 3,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 13,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 4,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 14,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            13,
+            14,
+            15,
+            25,
+            26,
+            27
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 15,
+    "fields": {
+        "type": "VISITING_PLACE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": [
+            4
+        ]
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 16,
+    "fields": {
+        "type": "VISITING_PLACE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "Walking (randomly) around where I am staying(Elqiza-El-Omranyeah)",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": [
+            5
+        ]
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 17,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 5,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 18,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            25,
+            26
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 19,
+    "fields": {
+        "type": "NIGHT_PRAYER",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [
+            21
+        ],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 20,
+    "fields": {
+        "type": "NIGHT_PRAYER",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [
+            22,
+            23,
+            24
+        ],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 21,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 6,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "Module 2\r\nLecture 10\r\nNegative Feedback\r\nNote 17 and 17B",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 22,
+    "fields": {
+        "type": "PURCHASING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": 3,
+        "purchase": 2,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 23,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 7,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 24,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            20,
+            27
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 25,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 9,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 26,
+    "fields": {
+        "type": "VISITING_PERSON",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [
+            2,
+            3
+        ],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 28,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 8,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 29,
+    "fields": {
+        "type": "PURCHASING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": 2,
+        "purchase": 3,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 30,
+    "fields": {
+        "type": "VISITING_DOCTOR",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": 1,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 31,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            25,
+            26,
+            27
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 32,
+    "fields": {
+        "type": "CLEANING_CLOTHS",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 33,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 10,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 34,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            19,
+            20,
+            25,
+            26,
+            27
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 35,
+    "fields": {
+        "type": "SHAVING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 36,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            23,
+            26,
+            27
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 37,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 11,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 38,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 12,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 39,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            23,
+            24
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 40,
+    "fields": {
+        "type": "NIGHT_PRAYER",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [
+            24,
+            28
+        ],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 41,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 13,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 42,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 14,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 43,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            16,
+            17
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 44,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            16,
+            17,
+            18
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 45,
+    "fields": {
+        "type": "PURCHASING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": 4,
+        "purchase": 4,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 46,
+    "fields": {
+        "type": "VISITING_PLACE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": [
+            8
+        ]
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 47,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            13,
+            14,
+            15
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 48,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 15,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 49,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 16,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 50,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 17,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 51,
+    "fields": {
+        "type": "PURCHASING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": 6,
+        "purchase": 5,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 52,
+    "fields": {
+        "type": "VISITING_PLACE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": [
+            9
+        ]
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 53,
+    "fields": {
+        "type": "PURCHASING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": 7,
+        "purchase": 6,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "صباح اول يوم في الشقة الجديدة",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 54,
+    "fields": {
+        "type": "PURCHASING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": 7,
+        "purchase": 7,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 55,
+    "fields": {
+        "type": "CLEANING_HOME",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 56,
+    "fields": {
+        "type": "REVIEWING_LECTURE",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": 18,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 57,
+    "fields": {
+        "type": "VISITING_PERSON",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [
+            5
+        ],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 58,
+    "fields": {
+        "type": "PURCHASING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": 8,
+        "purchase": 8,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 60,
+    "fields": {
+        "type": "PREPARING_FOOD",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": 1,
+        "note": "كان معد مسبقا\r\nقمت بعملية التسخين فقط",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 61,
+    "fields": {
+        "type": "PREPARING_FOOD",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": 2,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 63,
+    "fields": {
+        "type": "PREPARING_FOOD",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": 3,
+        "note": "كان معد مسبقا\r\nقمت بعملية التسخين فقط",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 64,
+    "fields": {
+        "type": "REVIEWING_GENERAL_TOPIC",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": 1,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 65,
+    "fields": {
+        "type": "PREPARING_FOOD",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": 4,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 66,
+    "fields": {
+        "type": "PURCHASING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": 9,
+        "purchase": 9,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 67,
+    "fields": {
+        "type": "PREPARING_FOOD",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": 5,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 68,
+    "fields": {
+        "type": "PURCHASING",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": 8,
+        "purchase": 10,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 69,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            19,
+            20
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 70,
+    "fields": {
+        "type": "PREPARING_FOOD",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": 6,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 71,
+    "fields": {
+        "type": "PREPARING_FOOD",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": 7,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 72,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            23,
+            25
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 73,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            21,
+            22,
+            23,
+            25,
+            26,
+            27
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 74,
+    "fields": {
+        "type": "PREPARING_FOOD",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": 8,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 83,
+    "fields": {
+        "type": "NIGHT_PRAYER",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [
+            28
+        ],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 113,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            24,
+            21,
+            22,
+            23
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 114,
+    "fields": {
+        "type": "NIGHT_PRAYER",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [
+            25,
+            26,
+            27
+        ],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 118,
+    "fields": {
+        "type": "RECITING_QURAN",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": null,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+        ],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activitytype",
+    "pk": 119,
+    "fields": {
+        "type": "PREPARING_FOOD",
+        "book": null,
+        "programming": null,
+        "moved_to_residence": null,
+        "purchase_market": null,
+        "purchase": null,
+        "lecture": null,
+        "general_topic": null,
+        "visited_doctor": null,
+        "prepared_food": 9,
+        "note": "",
+        "night_prayer_surahs": [],
+        "quran_surahs": [],
+        "visited_persons": [],
+        "received_persons": [],
+        "visited_places": []
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 1,
+    "fields": {
+        "time_from": "03:00:00",
+        "time_to": "04:00:00",
+        "activity_type": 1,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 2,
+    "fields": {
+        "time_from": "05:00:00",
+        "time_to": "07:30:00",
+        "activity_type": 2,
+        "note": "The end of an Ilness; it is continued for three days.",
+        "duration": 2.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 3,
+    "fields": {
+        "time_from": "07:30:00",
+        "time_to": "09:00:00",
+        "activity_type": 3,
+        "note": "Thevenin and Norton Equivalent.\r\nFirst time watching the video.\r\nNot dense.",
+        "duration": 1.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 4,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 4,
+        "note": "The activitity is one long activity separated across three periods of the day. Notice that You should exclude the Jumaah Prayer time and other prayer times and eating times.\r\nYou should also notice the time is longer than the recorded; it is actually till 22:30:00; There is an additional an reocored hour to adjust for the time used for prayers and eating.",
+        "duration": 9.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 5,
+    "fields": {
+        "time_from": "21:30:00",
+        "time_to": "23:59:59",
+        "activity_type": 2,
+        "note": "No comment.",
+        "duration": 2.4833333333333334
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 6,
+    "fields": {
+        "time_from": "18:00:00",
+        "time_to": "21:30:00",
+        "activity_type": 4,
+        "note": "The activitity is one long activity separated across two periods of the day. Notice that You should exclude the Jumaah Prayer time and other prayer times and eating times.\r\nYou should also notice the time is longer than the recorded; it is actually till 22:30:00; There is an additional an reocored hour to adjust for the time used for prayers and eating.",
+        "duration": 3.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 8,
+    "fields": {
+        "time_from": "03:00:00",
+        "time_to": "04:00:00",
+        "activity_type": 5,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 9,
+    "fields": {
+        "time_from": "05:00:00",
+        "time_to": "06:00:00",
+        "activity_type": 6,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 10,
+    "fields": {
+        "time_from": "06:00:00",
+        "time_to": "09:00:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 11,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "12:00:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 12,
+    "fields": {
+        "time_from": "16:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 7,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 13,
+    "fields": {
+        "time_from": "20:00:00",
+        "time_to": "21:00:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 14,
+    "fields": {
+        "time_from": "21:00:00",
+        "time_to": "23:59:59",
+        "activity_type": 2,
+        "note": "",
+        "duration": 2.9833333333333334
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 15,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "12:00:00",
+        "activity_type": 8,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 16,
+    "fields": {
+        "time_from": "03:00:00",
+        "time_to": "03:10:00",
+        "activity_type": 9,
+        "note": "",
+        "duration": 0.16666666666666666
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 17,
+    "fields": {
+        "time_from": "16:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 18,
+    "fields": {
+        "time_from": "18:00:00",
+        "time_to": "19:00:00",
+        "activity_type": 10,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 19,
+    "fields": {
+        "time_from": "00:30:00",
+        "time_to": "02:30:00",
+        "activity_type": 11,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 20,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 12,
+        "note": "Capacitors\r\nFirst watching.\r\nNot dense.",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 21,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 13,
+        "note": "Capacitance Modeling and Comparator.\r\nFirst watching.\r\nNot dense.",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 22,
+    "fields": {
+        "time_from": "13:00:00",
+        "time_to": "15:00:00",
+        "activity_type": 14,
+        "note": "Not in a continuous mannar; the time is a estimation.",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 23,
+    "fields": {
+        "time_from": "16:00:00",
+        "time_to": "19:00:00",
+        "activity_type": 15,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 24,
+    "fields": {
+        "time_from": "19:00:00",
+        "time_to": "22:00:00",
+        "activity_type": 16,
+        "note": "Walking around where I am staying(Elqiza-El-Omranyeah)",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 25,
+    "fields": {
+        "time_from": "22:00:00",
+        "time_to": "23:59:59",
+        "activity_type": 2,
+        "note": "",
+        "duration": 1.9833333333333334
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 26,
+    "fields": {
+        "time_from": "08:00:00",
+        "time_to": "10:00:00",
+        "activity_type": 17,
+        "note": "Capacitance Model and Comparator\r\nModule 2\r\nLecture 9\r\nNote(18)\r\nIt's dense a little bit.",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 27,
+    "fields": {
+        "time_from": "13:00:00",
+        "time_to": "14:00:00",
+        "activity_type": 8,
+        "note": "Reading on chapter 4.",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 28,
+    "fields": {
+        "time_from": "15:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 29,
+    "fields": {
+        "time_from": "10:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 18,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 30,
+    "fields": {
+        "time_from": "01:00:00",
+        "time_to": "01:20:00",
+        "activity_type": 19,
+        "note": "",
+        "duration": 0.3333333333333333
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 31,
+    "fields": {
+        "time_from": "03:00:00",
+        "time_to": "04:00:00",
+        "activity_type": 20,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 32,
+    "fields": {
+        "time_from": "08:00:00",
+        "time_to": "10:00:00",
+        "activity_type": 21,
+        "note": "First Time.",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 33,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "13:00:00",
+        "activity_type": 22,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 34,
+    "fields": {
+        "time_from": "15:00:00",
+        "time_to": "17:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 35,
+    "fields": {
+        "time_from": "18:00:00",
+        "time_to": "19:00:00",
+        "activity_type": 23,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 36,
+    "fields": {
+        "time_from": "01:30:00",
+        "time_to": "02:00:00",
+        "activity_type": 19,
+        "note": "",
+        "duration": 0.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 37,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "15:00:00",
+        "activity_type": 8,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 38,
+    "fields": {
+        "time_from": "18:00:00",
+        "time_to": "19:00:00",
+        "activity_type": 24,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 39,
+    "fields": {
+        "time_from": "02:30:00",
+        "time_to": "05:00:00",
+        "activity_type": 11,
+        "note": "",
+        "duration": 2.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 40,
+    "fields": {
+        "time_from": "06:00:00",
+        "time_to": "08:30:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 2.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 41,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 25,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 42,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "12:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 43,
+    "fields": {
+        "time_from": "14:00:00",
+        "time_to": "16:00:00",
+        "activity_type": 26,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 44,
+    "fields": {
+        "time_from": "21:00:00",
+        "time_to": "22:00:00",
+        "activity_type": 34,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 45,
+    "fields": {
+        "time_from": "22:00:00",
+        "time_to": "23:59:59",
+        "activity_type": 2,
+        "note": "",
+        "duration": 1.9833333333333334
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 46,
+    "fields": {
+        "time_from": "02:00:00",
+        "time_to": "03:00:00",
+        "activity_type": 5,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 48,
+    "fields": {
+        "time_from": "06:00:00",
+        "time_to": "08:00:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 49,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 28,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 50,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "13:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 51,
+    "fields": {
+        "time_from": "15:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 29,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 52,
+    "fields": {
+        "time_from": "23:00:00",
+        "time_to": "23:59:59",
+        "activity_type": 2,
+        "note": "",
+        "duration": 0.9833333333333333
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 53,
+    "fields": {
+        "time_from": "19:30:00",
+        "time_to": "21:30:00",
+        "activity_type": 30,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 54,
+    "fields": {
+        "time_from": "13:00:00",
+        "time_to": "14:00:00",
+        "activity_type": 31,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 55,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 32,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 56,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "13:00:00",
+        "activity_type": 33,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 57,
+    "fields": {
+        "time_from": "18:00:00",
+        "time_to": "20:00:00",
+        "activity_type": 34,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 58,
+    "fields": {
+        "time_from": "04:00:00",
+        "time_to": "04:40:00",
+        "activity_type": 1,
+        "note": "",
+        "duration": 0.6666666666666666
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 59,
+    "fields": {
+        "time_from": "14:00:00",
+        "time_to": "15:30:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 1.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 60,
+    "fields": {
+        "time_from": "15:30:00",
+        "time_to": "16:30:00",
+        "activity_type": 35,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 61,
+    "fields": {
+        "time_from": "17:30:00",
+        "time_to": "19:00:00",
+        "activity_type": 8,
+        "note": "",
+        "duration": 1.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 62,
+    "fields": {
+        "time_from": "20:00:00",
+        "time_to": "21:00:00",
+        "activity_type": 36,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 63,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 37,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 64,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 38,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 65,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "16:00:00",
+        "activity_type": 4,
+        "note": "A little bit of the topic; I also introduced to the Elipse Bikes company and its API and how to write Python script to interact with the API.",
+        "duration": 4.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 66,
+    "fields": {
+        "time_from": "20:00:00",
+        "time_to": "21:00:00",
+        "activity_type": 39,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 67,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 68,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "17:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 6.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 69,
+    "fields": {
+        "time_from": "18:00:00",
+        "time_to": "22:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 4.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 70,
+    "fields": {
+        "time_from": "06:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 5.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 71,
+    "fields": {
+        "time_from": "03:45:00",
+        "time_to": "04:30:00",
+        "activity_type": 40,
+        "note": "",
+        "duration": 0.75
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 72,
+    "fields": {
+        "time_from": "01:30:00",
+        "time_to": "02:30:00",
+        "activity_type": 5,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 73,
+    "fields": {
+        "time_from": "03:30:00",
+        "time_to": "04:30:00",
+        "activity_type": 40,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 74,
+    "fields": {
+        "time_from": "15:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 32,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 75,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 41,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 76,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "13:00:00",
+        "activity_type": 42,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 77,
+    "fields": {
+        "time_from": "20:00:00",
+        "time_to": "21:00:00",
+        "activity_type": 43,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 78,
+    "fields": {
+        "time_from": "16:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 44,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 79,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "16:00:00",
+        "activity_type": 45,
+        "note": "",
+        "duration": 4.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 80,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "14:00:00",
+        "activity_type": 46,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 81,
+    "fields": {
+        "time_from": "14:00:00",
+        "time_to": "15:00:00",
+        "activity_type": 47,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 82,
+    "fields": {
+        "time_from": "15:00:00",
+        "time_to": "17:00:00",
+        "activity_type": 48,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 83,
+    "fields": {
+        "time_from": "05:30:00",
+        "time_to": "09:00:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 3.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 84,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "13:00:00",
+        "activity_type": 49,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 85,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "15:00:00",
+        "activity_type": 50,
+        "note": "",
+        "duration": 4.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 86,
+    "fields": {
+        "time_from": "16:00:00",
+        "time_to": "17:00:00",
+        "activity_type": 51,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 87,
+    "fields": {
+        "time_from": "18:00:00",
+        "time_to": "20:00:00",
+        "activity_type": 52,
+        "note": "Moved to a new apartment",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 88,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "12:00:00",
+        "activity_type": 53,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 89,
+    "fields": {
+        "time_from": "16:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 54,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 90,
+    "fields": {
+        "time_from": "18:00:00",
+        "time_to": "20:00:00",
+        "activity_type": 55,
+        "note": "Cleaning the house not clothes.",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 91,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 16,
+        "note": "Walking Randomly",
+        "duration": 6.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 92,
+    "fields": {
+        "time_from": "18:00:00",
+        "time_to": "22:00:00",
+        "activity_type": 16,
+        "note": "Walking Randomly",
+        "duration": 4.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 93,
+    "fields": {
+        "time_from": "13:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 56,
+        "note": "",
+        "duration": 5.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 94,
+    "fields": {
+        "time_from": "20:00:00",
+        "time_to": "21:00:00",
+        "activity_type": 57,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 95,
+    "fields": {
+        "time_from": "16:00:00",
+        "time_to": "17:00:00",
+        "activity_type": 58,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 96,
+    "fields": {
+        "time_from": "20:00:00",
+        "time_to": "21:00:00",
+        "activity_type": 47,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 97,
+    "fields": {
+        "time_from": "10:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 55,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 98,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "12:00:00",
+        "activity_type": 60,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 99,
+    "fields": {
+        "time_from": "17:30:00",
+        "time_to": "18:30:00",
+        "activity_type": 3,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 100,
+    "fields": {
+        "time_from": "18:30:00",
+        "time_to": "19:30:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 101,
+    "fields": {
+        "time_from": "19:30:00",
+        "time_to": "20:30:00",
+        "activity_type": 61,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 102,
+    "fields": {
+        "time_from": "04:00:00",
+        "time_to": "04:30:00",
+        "activity_type": 19,
+        "note": "",
+        "duration": 0.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 103,
+    "fields": {
+        "time_from": "05:30:00",
+        "time_to": "10:30:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 5.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 104,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "12:00:00",
+        "activity_type": 63,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 105,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "16:00:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 4.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 106,
+    "fields": {
+        "time_from": "18:30:00",
+        "time_to": "19:30:00",
+        "activity_type": 64,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 107,
+    "fields": {
+        "time_from": "20:30:00",
+        "time_to": "22:30:00",
+        "activity_type": 34,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 108,
+    "fields": {
+        "time_from": "19:30:00",
+        "time_to": "20:30:00",
+        "activity_type": 65,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 109,
+    "fields": {
+        "time_from": "21:00:00",
+        "time_to": "21:30:00",
+        "activity_type": 66,
+        "note": "",
+        "duration": 0.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 110,
+    "fields": {
+        "time_from": "01:15:00",
+        "time_to": "02:15:00",
+        "activity_type": 5,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 111,
+    "fields": {
+        "time_from": "05:30:00",
+        "time_to": "10:00:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 4.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 112,
+    "fields": {
+        "time_from": "10:30:00",
+        "time_to": "11:00:00",
+        "activity_type": 67,
+        "note": "",
+        "duration": 0.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 113,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "16:00:00",
+        "activity_type": 12,
+        "note": "",
+        "duration": 5.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 114,
+    "fields": {
+        "time_from": "16:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 16,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 115,
+    "fields": {
+        "time_from": "20:30:00",
+        "time_to": "22:30:00",
+        "activity_type": 32,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 116,
+    "fields": {
+        "time_from": "22:00:00",
+        "time_to": "23:59:59",
+        "activity_type": 32,
+        "note": "",
+        "duration": 1.9833333333333334
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 117,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "13:00:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 118,
+    "fields": {
+        "time_from": "14:00:00",
+        "time_to": "16:00:00",
+        "activity_type": 12,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 120,
+    "fields": {
+        "time_from": "17:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 68,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 121,
+    "fields": {
+        "time_from": "19:00:00",
+        "time_to": "20:00:00",
+        "activity_type": 47,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 122,
+    "fields": {
+        "time_from": "20:00:00",
+        "time_to": "21:00:00",
+        "activity_type": 69,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 123,
+    "fields": {
+        "time_from": "01:15:00",
+        "time_to": "02:15:00",
+        "activity_type": 1,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 124,
+    "fields": {
+        "time_from": "03:30:00",
+        "time_to": "05:00:00",
+        "activity_type": 40,
+        "note": "",
+        "duration": 1.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 125,
+    "fields": {
+        "time_from": "13:30:00",
+        "time_to": "18:30:00",
+        "activity_type": 13,
+        "note": "",
+        "duration": 5.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 126,
+    "fields": {
+        "time_from": "19:00:00",
+        "time_to": "21:00:00",
+        "activity_type": 34,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 127,
+    "fields": {
+        "time_from": "22:00:00",
+        "time_to": "23:00:00",
+        "activity_type": 47,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 128,
+    "fields": {
+        "time_from": "10:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 70,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 129,
+    "fields": {
+        "time_from": "16:00:00",
+        "time_to": "19:30:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 3.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 130,
+    "fields": {
+        "time_from": "22:00:00",
+        "time_to": "23:00:00",
+        "activity_type": 31,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 131,
+    "fields": {
+        "time_from": "04:00:00",
+        "time_to": "05:00:00",
+        "activity_type": 40,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 132,
+    "fields": {
+        "time_from": "05:00:00",
+        "time_to": "09:30:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 4.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 133,
+    "fields": {
+        "time_from": "10:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 71,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 134,
+    "fields": {
+        "time_from": "13:00:00",
+        "time_to": "19:00:00",
+        "activity_type": 17,
+        "note": "",
+        "duration": 6.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 135,
+    "fields": {
+        "time_from": "19:00:00",
+        "time_to": "21:00:00",
+        "activity_type": 31,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 136,
+    "fields": {
+        "time_from": "11:00:00",
+        "time_to": "12:00:00",
+        "activity_type": 2,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 137,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "16:00:00",
+        "activity_type": 21,
+        "note": "",
+        "duration": 4.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 138,
+    "fields": {
+        "time_from": "17:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 72,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 139,
+    "fields": {
+        "time_from": "19:00:00",
+        "time_to": "22:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 140,
+    "fields": {
+        "time_from": "22:00:00",
+        "time_to": "23:59:59",
+        "activity_type": 4,
+        "note": "",
+        "duration": 1.9833333333333334
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 141,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "14:00:00",
+        "activity_type": 21,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 142,
+    "fields": {
+        "time_from": "14:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 4,
+        "note": "",
+        "duration": 4.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 143,
+    "fields": {
+        "time_from": "19:00:00",
+        "time_to": "22:00:00",
+        "activity_type": 73,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 144,
+    "fields": {
+        "time_from": "15:30:00",
+        "time_to": "16:30:00",
+        "activity_type": 74,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 145,
+    "fields": {
+        "time_from": "04:00:00",
+        "time_to": "05:00:00",
+        "activity_type": 83,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 146,
+    "fields": {
+        "time_from": "17:00:00",
+        "time_to": "18:00:00",
+        "activity_type": 113,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 147,
+    "fields": {
+        "time_from": "03:30:00",
+        "time_to": "05:00:00",
+        "activity_type": 114,
+        "note": "",
+        "duration": 1.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 148,
+    "fields": {
+        "time_from": "09:00:00",
+        "time_to": "10:00:00",
+        "activity_type": 35,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 149,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "14:00:00",
+        "activity_type": 12,
+        "note": "",
+        "duration": 2.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 150,
+    "fields": {
+        "time_from": "03:30:00",
+        "time_to": "05:00:00",
+        "activity_type": 1,
+        "note": "",
+        "duration": 1.5
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 152,
+    "fields": {
+        "time_from": "19:00:00",
+        "time_to": "22:00:00",
+        "activity_type": 118,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 153,
+    "fields": {
+        "time_from": "22:00:00",
+        "time_to": "23:59:59",
+        "activity_type": 43,
+        "note": "",
+        "duration": 1.9833333333333334
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 154,
+    "fields": {
+        "time_from": "10:00:00",
+        "time_to": "11:00:00",
+        "activity_type": 119,
+        "note": "",
+        "duration": 1.0
+    }
+},
+{
+    "model": "activities.activity",
+    "pk": 155,
+    "fields": {
+        "time_from": "12:00:00",
+        "time_to": "15:00:00",
+        "activity_type": 28,
+        "note": "",
+        "duration": 3.0
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 1,
+    "fields": {
+        "date": "2024-04-19",
+        "alfajr": "03:52:00",
+        "dawn": "05:24:00",
+        "almaghrib": "19:13:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "First Diary to be Entered.\r\nA long day from around 08:00am to 10:30pm",
+        "after_midnight": [
+            1
+        ],
+        "morning": [
+            2,
+            3
+        ],
+        "during_day": [
+            4
+        ],
+        "evening": [
+            4
+        ],
+        "before_midnight": [
+            5
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 2,
+    "fields": {
+        "date": "2024-04-20",
+        "alfajr": "03:51:00",
+        "dawn": "05:23:00",
+        "almaghrib": "19:14:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "This day is like No-Academia day.",
+        "after_midnight": [
+            8
+        ],
+        "morning": [
+            9,
+            10
+        ],
+        "during_day": [
+            11,
+            12
+        ],
+        "evening": [
+            13
+        ],
+        "before_midnight": [
+            14
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 3,
+    "fields": {
+        "date": "2024-04-21",
+        "alfajr": "03:50:00",
+        "dawn": "05:22:00",
+        "almaghrib": "19:15:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            8
+        ],
+        "morning": [
+            10
+        ],
+        "during_day": [
+            15,
+            17,
+            20
+        ],
+        "evening": [
+            18
+        ],
+        "before_midnight": [
+            14
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 4,
+    "fields": {
+        "date": "2024-04-22",
+        "alfajr": "03:49:00",
+        "dawn": "05:21:00",
+        "almaghrib": "19:16:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            19
+        ],
+        "morning": [
+            10
+        ],
+        "during_day": [
+            21,
+            22,
+            23
+        ],
+        "evening": [
+            24
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 5,
+    "fields": {
+        "date": "2024-04-23",
+        "alfajr": "03:48:00",
+        "dawn": "05:20:00",
+        "almaghrib": "19:17:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            19
+        ],
+        "morning": [
+            2,
+            26
+        ],
+        "during_day": [
+            27,
+            28,
+            29
+        ],
+        "evening": [
+            6
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 6,
+    "fields": {
+        "date": "2024-04-24",
+        "alfajr": "03:47:00",
+        "dawn": "05:19:00",
+        "almaghrib": "19:18:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            30,
+            31
+        ],
+        "morning": [
+            2,
+            3
+        ],
+        "during_day": [
+            29,
+            33,
+            34
+        ],
+        "evening": [
+            35
+        ],
+        "before_midnight": [
+            5
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 7,
+    "fields": {
+        "date": "2024-04-25",
+        "alfajr": "03:44:00",
+        "dawn": "05:18:00",
+        "almaghrib": "19:19:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            31,
+            36
+        ],
+        "morning": [
+            2,
+            32
+        ],
+        "during_day": [
+            29,
+            37
+        ],
+        "evening": [
+            38
+        ],
+        "before_midnight": [
+            14
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 8,
+    "fields": {
+        "date": "2024-04-26",
+        "alfajr": "04:43:00",
+        "dawn": "06:17:00",
+        "almaghrib": "19:20:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "In this day there is a shift in the Cairo Time Zone; from GMT+2 to GMT+3",
+        "after_midnight": [
+            39
+        ],
+        "morning": [
+            40,
+            41
+        ],
+        "during_day": [
+            42,
+            43
+        ],
+        "evening": [
+            44
+        ],
+        "before_midnight": [
+            16,
+            45
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 9,
+    "fields": {
+        "date": "2024-04-27",
+        "alfajr": "04:42:00",
+        "dawn": "06:16:00",
+        "almaghrib": "19:21:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            58
+        ],
+        "morning": [
+            48,
+            49
+        ],
+        "during_day": [
+            50,
+            51,
+            54
+        ],
+        "evening": [
+            53
+        ],
+        "before_midnight": [
+            52
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 10,
+    "fields": {
+        "date": "2024-04-28",
+        "alfajr": "04:40:00",
+        "dawn": "06:15:00",
+        "almaghrib": "19:22:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            58
+        ],
+        "morning": [
+            48,
+            55
+        ],
+        "during_day": [
+            56
+        ],
+        "evening": [
+            57
+        ],
+        "before_midnight": [
+            52
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 11,
+    "fields": {
+        "date": "2024-04-29",
+        "alfajr": "04:39:00",
+        "dawn": "06:14:00",
+        "almaghrib": "19:23:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            58
+        ],
+        "morning": [
+            48,
+            63
+        ],
+        "during_day": [
+            59,
+            60,
+            61
+        ],
+        "evening": [
+            62
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 12,
+    "fields": {
+        "date": "2024-04-30",
+        "alfajr": "04:38:00",
+        "dawn": "06:13:00",
+        "almaghrib": "19:24:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            1
+        ],
+        "morning": [
+            40,
+            64
+        ],
+        "during_day": [
+            65
+        ],
+        "evening": [
+            66
+        ],
+        "before_midnight": [
+            45
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 13,
+    "fields": {
+        "date": "2024-05-01",
+        "alfajr": "04:37:00",
+        "dawn": "06:12:00",
+        "almaghrib": "19:25:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            46
+        ],
+        "morning": [
+            48,
+            67
+        ],
+        "during_day": [
+            68
+        ],
+        "evening": [
+            69
+        ],
+        "before_midnight": [
+            52
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 14,
+    "fields": {
+        "date": "2024-05-02",
+        "alfajr": "04:36:00",
+        "dawn": "06:11:00",
+        "almaghrib": "19:26:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            58
+        ],
+        "morning": [
+            48,
+            67
+        ],
+        "during_day": [
+            68
+        ],
+        "evening": [
+            69
+        ],
+        "before_midnight": [
+            52
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 15,
+    "fields": {
+        "date": "2024-05-03",
+        "alfajr": "04:35:00",
+        "dawn": "06:10:00",
+        "almaghrib": "19:27:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            58
+        ],
+        "morning": [
+            70
+        ],
+        "during_day": [
+            68
+        ],
+        "evening": [
+            69
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 16,
+    "fields": {
+        "date": "2024-05-04",
+        "alfajr": "04:33:00",
+        "dawn": "06:09:00",
+        "almaghrib": "19:28:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            58
+        ],
+        "morning": [
+            70
+        ],
+        "during_day": [
+            68
+        ],
+        "evening": [
+            69
+        ],
+        "before_midnight": [
+            45
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 17,
+    "fields": {
+        "date": "2024-05-05",
+        "alfajr": "04:32:00",
+        "dawn": "06:08:00",
+        "almaghrib": "19:29:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            58
+        ],
+        "morning": [
+            48,
+            67
+        ],
+        "during_day": [
+            68
+        ],
+        "evening": [
+            57
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 18,
+    "fields": {
+        "date": "2024-05-06",
+        "alfajr": "04:31:00",
+        "dawn": "06:08:00",
+        "almaghrib": "19:30:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            46,
+            71
+        ],
+        "morning": [
+            2,
+            67
+        ],
+        "during_day": [
+            68
+        ],
+        "evening": [
+            57
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 19,
+    "fields": {
+        "date": "2024-05-07",
+        "alfajr": "04:31:00",
+        "dawn": "06:07:00",
+        "almaghrib": "19:31:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            2,
+            67
+        ],
+        "during_day": [
+            74
+        ],
+        "evening": [
+            57
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 20,
+    "fields": {
+        "date": "2024-05-08",
+        "alfajr": "04:29:00",
+        "dawn": "06:06:00",
+        "almaghrib": "19:32:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            2,
+            75
+        ],
+        "during_day": [
+            22,
+            76
+        ],
+        "evening": [
+            77
+        ],
+        "before_midnight": [
+            52
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 21,
+    "fields": {
+        "date": "2024-05-09",
+        "alfajr": "04:29:00",
+        "dawn": "06:06:00",
+        "almaghrib": "19:33:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            2,
+            67
+        ],
+        "during_day": [
+            68
+        ],
+        "evening": [
+            57,
+            77
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 22,
+    "fields": {
+        "date": "2024-05-10",
+        "alfajr": "04:28:00",
+        "dawn": "06:05:00",
+        "almaghrib": "19:34:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            2,
+            67
+        ],
+        "during_day": [
+            78
+        ],
+        "evening": [
+            57
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 23,
+    "fields": {
+        "date": "2024-05-11",
+        "alfajr": "04:27:00",
+        "dawn": "06:04:00",
+        "almaghrib": "19:35:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            2,
+            67
+        ],
+        "during_day": [
+            78,
+            79
+        ],
+        "evening": [
+            57
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 24,
+    "fields": {
+        "date": "2024-05-12",
+        "alfajr": "04:26:00",
+        "dawn": "06:03:00",
+        "almaghrib": "19:36:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            2
+        ],
+        "during_day": [
+            80,
+            81,
+            82
+        ],
+        "evening": [
+            57
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 25,
+    "fields": {
+        "date": "2024-05-13",
+        "alfajr": "04:25:00",
+        "dawn": "06:03:00",
+        "almaghrib": "19:37:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            2
+        ],
+        "during_day": [
+            82
+        ],
+        "evening": [
+            57
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 26,
+    "fields": {
+        "date": "2024-05-14",
+        "alfajr": "04:23:00",
+        "dawn": "06:02:00",
+        "almaghrib": "19:38:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            83
+        ],
+        "during_day": [
+            68
+        ],
+        "evening": [
+            57
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 27,
+    "fields": {
+        "date": "2024-05-15",
+        "alfajr": "04:22:00",
+        "dawn": "06:02:00",
+        "almaghrib": "19:39:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            83
+        ],
+        "during_day": [
+            84
+        ],
+        "evening": [
+            57
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 28,
+    "fields": {
+        "date": "2024-05-16",
+        "alfajr": "04:22:00",
+        "dawn": "06:01:00",
+        "almaghrib": "19:40:00",
+        "residence": 1,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72
+        ],
+        "morning": [
+            83
+        ],
+        "during_day": [
+            85,
+            86
+        ],
+        "evening": [
+            87
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 29,
+    "fields": {
+        "date": "2024-05-17",
+        "alfajr": "04:21:00",
+        "dawn": "06:00:00",
+        "almaghrib": "19:41:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            71
+        ],
+        "morning": [
+            83
+        ],
+        "during_day": [
+            88,
+            89
+        ],
+        "evening": [
+            90
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 30,
+    "fields": {
+        "date": "2024-05-18",
+        "alfajr": "04:20:00",
+        "dawn": "05:59:00",
+        "almaghrib": "19:42:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            71
+        ],
+        "morning": [
+            83
+        ],
+        "during_day": [
+            91
+        ],
+        "evening": [
+            92
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 31,
+    "fields": {
+        "date": "2024-05-19",
+        "alfajr": "04:19:00",
+        "dawn": "05:59:00",
+        "almaghrib": "19:43:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            73
+        ],
+        "morning": [
+            83
+        ],
+        "during_day": [
+            93
+        ],
+        "evening": [
+            94
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 32,
+    "fields": {
+        "date": "2024-05-20",
+        "alfajr": "04:18:00",
+        "dawn": "05:59:00",
+        "almaghrib": "19:44:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            83
+        ],
+        "during_day": [
+            68
+        ],
+        "evening": [
+            94,
+            44
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 33,
+    "fields": {
+        "date": "2024-05-21",
+        "alfajr": "04:17:00",
+        "dawn": "05:58:00",
+        "almaghrib": "19:45:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            83
+        ],
+        "during_day": [
+            65,
+            95
+        ],
+        "evening": [
+            96,
+            44
+        ],
+        "before_midnight": [
+            25
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 34,
+    "fields": {
+        "date": "2024-05-22",
+        "alfajr": "04:16:00",
+        "dawn": "05:58:00",
+        "almaghrib": "19:46:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            72,
+            73
+        ],
+        "morning": [
+            83,
+            97
+        ],
+        "during_day": [
+            65,
+            98,
+            99
+        ],
+        "evening": [
+            100,
+            101,
+            107
+        ],
+        "before_midnight": [
+            52
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 35,
+    "fields": {
+        "date": "2024-05-23",
+        "alfajr": "04:16:00",
+        "dawn": "05:57:00",
+        "almaghrib": "19:47:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            102
+        ],
+        "morning": [
+            103
+        ],
+        "during_day": [
+            99,
+            104,
+            105
+        ],
+        "evening": [
+            106,
+            108,
+            109
+        ],
+        "before_midnight": [
+            52
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 36,
+    "fields": {
+        "date": "2024-05-24",
+        "alfajr": "04:15:00",
+        "dawn": "05:57:00",
+        "almaghrib": "19:47:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            73,
+            110
+        ],
+        "morning": [
+            111,
+            112
+        ],
+        "during_day": [
+            113,
+            114
+        ],
+        "evening": [
+            108,
+            115
+        ],
+        "before_midnight": [
+            116
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 37,
+    "fields": {
+        "date": "2024-05-25",
+        "alfajr": "04:14:00",
+        "dawn": "05:57:00",
+        "almaghrib": "19:47:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            102
+        ],
+        "morning": [
+            111
+        ],
+        "during_day": [
+            117,
+            118,
+            120
+        ],
+        "evening": [
+            121,
+            122
+        ],
+        "before_midnight": [
+            52
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 38,
+    "fields": {
+        "date": "2024-05-26",
+        "alfajr": "04:13:00",
+        "dawn": "05:56:00",
+        "almaghrib": "19:49:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            123,
+            124
+        ],
+        "morning": [
+            103
+        ],
+        "during_day": [
+            117,
+            125
+        ],
+        "evening": [
+            126,
+            127
+        ],
+        "before_midnight": [
+            52
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 39,
+    "fields": {
+        "date": "2024-05-27",
+        "alfajr": "04:13:00",
+        "dawn": "05:56:00",
+        "almaghrib": "19:49:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "Practicing Programming:\r\nWorking on mysite application, enhancing the database models. Added Enum field for the ActivityType.\r\n\r\nVisiting Person:\r\nWe have a supper there.\r\n\r\nIn the night we also tried the web_page_reader app to download some chapters of Martial Peak. We have not slept untill after mid night.",
+        "after_midnight": [
+            71,
+            123
+        ],
+        "morning": [
+            111,
+            128
+        ],
+        "during_day": [
+            105,
+            129
+        ],
+        "evening": [
+            94,
+            130
+        ],
+        "before_midnight": [
+            52
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 40,
+    "fields": {
+        "date": "2024-05-28",
+        "alfajr": "04:13:00",
+        "dawn": "05:56:00",
+        "almaghrib": "19:50:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "Reviewing Lecture:\r\nReviewing the discussion 9B, about charge sharing. This charge sharing is not discussed clearly in the lecture.",
+        "after_midnight": [
+            131
+        ],
+        "morning": [
+            132,
+            133
+        ],
+        "during_day": [
+            117,
+            134
+        ],
+        "evening": [
+            16,
+            135
+        ],
+        "before_midnight": [
+            52
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 41,
+    "fields": {
+        "date": "2024-05-29",
+        "alfajr": "04:12:00",
+        "dawn": "05:55:00",
+        "almaghrib": "19:50:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "There was no sleep berfore midnight.\r\nPracticing Programming:\r\nWorking into Primordial application(previously named Mysite). Adding duration to the Activity and ActivityType. You can find its details in the commit 0bcf5617114623aeb585d99b84bd8bd670392929.",
+        "after_midnight": [
+            131
+        ],
+        "morning": [
+            132,
+            133
+        ],
+        "during_day": [
+            136,
+            137,
+            138
+        ],
+        "evening": [
+            139
+        ],
+        "before_midnight": [
+            140
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 42,
+    "fields": {
+        "date": "2024-05-30",
+        "alfajr": "04:12:00",
+        "dawn": "05:55:00",
+        "almaghrib": "19:51:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "Practicing Programming:\r\nI am working on Primordial project. Refactored the tests to use initial data through fixures.",
+        "after_midnight": [
+            73
+        ],
+        "morning": [
+            132,
+            133
+        ],
+        "during_day": [
+            136,
+            141,
+            142
+        ],
+        "evening": [
+            143
+        ],
+        "before_midnight": [
+            140
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 43,
+    "fields": {
+        "date": "2024-05-31",
+        "alfajr": "04:11:00",
+        "dawn": "05:55:00",
+        "almaghrib": "19:51:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "Practicing Programming:\r\nWorking on the Activities app of the Primordial project.",
+        "after_midnight": [
+            46
+        ],
+        "morning": [
+            132,
+            133
+        ],
+        "during_day": [
+            42,
+            59,
+            144
+        ],
+        "evening": [
+            135
+        ],
+        "before_midnight": [
+            140
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 44,
+    "fields": {
+        "date": "2024-06-01",
+        "alfajr": "04:10:00",
+        "dawn": "05:55:00",
+        "almaghrib": "19:52:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "Practicing Programming:\r\nWorking on the activities app of the Primordial project.\r\nAdd many to many field validation, see commit  c3c0a7eb",
+        "after_midnight": [
+            145
+        ],
+        "morning": [
+            83,
+            133
+        ],
+        "during_day": [
+            65,
+            146
+        ],
+        "evening": [
+            6
+        ],
+        "before_midnight": [
+            140
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 45,
+    "fields": {
+        "date": "2024-06-02",
+        "alfajr": "04:10:00",
+        "dawn": "05:54:00",
+        "almaghrib": "19:52:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "Practicing Programming:\r\nWorking on the activities app of the Primordial project.\r\nAdd ActivityType Form test that checks the form validation, see commit  59b5b55a.",
+        "after_midnight": [
+            147
+        ],
+        "morning": [
+            83,
+            148
+        ],
+        "during_day": [
+            149,
+            81,
+            28
+        ],
+        "evening": [
+            139
+        ],
+        "before_midnight": [
+            140
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 46,
+    "fields": {
+        "date": "2024-06-03",
+        "alfajr": "04:10:00",
+        "dawn": "05:55:00",
+        "almaghrib": "19:53:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "Practicing Programming:\r\nStruggling with different versions of python and django to run a simple app that has been cloned from github. The app uses django 2.1 with some python libraries that couldn't be installed with python 3.12. At last it worked with python 3.5",
+        "after_midnight": [
+            150
+        ],
+        "morning": [
+            128,
+            132
+        ],
+        "during_day": [
+            65
+        ],
+        "evening": [
+            152
+        ],
+        "before_midnight": [
+            153
+        ]
+    }
+},
+{
+    "model": "activities.diary",
+    "pk": 47,
+    "fields": {
+        "date": "2024-06-04",
+        "alfajr": "04:09:00",
+        "dawn": "05:54:00",
+        "almaghrib": "19:53:00",
+        "residence": 9,
+        "fasting": false,
+        "note": "",
+        "after_midnight": [
+            150
+        ],
+        "morning": [
+            154,
+            83
+        ],
+        "during_day": [
+            136,
+            155
+        ],
+        "evening": [
+            16
+        ],
+        "before_midnight": [
+            16
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$nzPI6ErfikAuXYH1n677QP$oL9UWoTu9ZRCyBXJHcAFV4CKEmAU9dCdYNwR+7XN5PI=",
+        "last_login": "2024-06-03T12:48:36.609Z",
+        "is_superuser": true,
+        "username": "muhammad",
+        "first_name": "",
+        "last_name": "",
+        "email": "muhammad.azzain34@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-04-14T11:34:48.431Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1p9hh2ujmzbdrinhpkuuhemqs4ndmkvb",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s2jNh:fE-WA2FegNJnqiA6YWkDn1wuZAS_8jSln75rTwbFffU",
+        "expire_date": "2024-05-17T03:14:41.808Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3yt4lttsfgz23uepb5t9bcirbzhz8h99",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s3V2e:8nFzQL_hRQhrV0tfr2nWaQmsVZ8FPCFWu64cWENcy94",
+        "expire_date": "2024-05-19T06:08:08.742Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "5clajvd6gz47qhy18bt5nuvhzt3ixczy",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s6Xzj:L0qNnQ_KDogBi2XQvhhzvcpJNeiq6WgQlRjAA-3Ml5M",
+        "expire_date": "2024-05-27T15:53:43.590Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "5zc4050ghbgjgjj8gq1sjobctwrejy80",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1rwL8r:ox5Ipp51eDnJeKy3GFEfVDcnmD6RFaVKq40aNFNQE2A",
+        "expire_date": "2024-04-29T12:08:57.411Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8x7hkpjal3r1v4a54bb5w5zkbxudzy0k",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s2PHc:q4JLjyctJwnmzJyCQyzqAgFaGeiz_2qlE9RF8_bhshk",
+        "expire_date": "2024-05-16T05:47:04.575Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "c64uwk15f83pfxdkf9fwvuk38nyfljcc",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s7EB0:j2eZNQWwXROER3JmZ_VHsHbzz0OWwW9D2s-boYCj6kk",
+        "expire_date": "2024-05-29T12:56:10.651Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ctb9x65lg0heq7ou7c1s8qbw67jxw6dq",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s3BAc:ScOke8cwJsRo9-wUfuCBp10HtZf5bqzSCic4viCuBhg",
+        "expire_date": "2024-05-18T08:55:02.916Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dqlydvkv4h4om27njkg5r1mz6svyu9rg",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1sChPt:Pvy9W15JuIE4ebkF-kiuEJcPJAo9vgRWfYnZQrwNNyI",
+        "expire_date": "2024-06-13T15:10:09.386Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ivmbnx2o8wrktomi4xq0hwhnbdd65kkj",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1rw2M3:G5dhj-08_r5GZhRxDKkHBE08P3cqKTqRTByCoOzfcRc",
+        "expire_date": "2024-04-28T16:05:19.167Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "m0blqy2ptlu8n5vpy0709yme6180uorl",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1rvyAK:2BJBOBG05A25AFerohyS8dgsUkTlanKMPT9bfv0f_7w",
+        "expire_date": "2024-04-28T11:36:56.856Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mezmg75f3fs4omwb2hy1kgkm5a3qqhim",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s0nYA:dPxNUvlHm2dcaE80VHbEAefQQUAcLJ1BYHN9WvVfFrI",
+        "expire_date": "2024-05-11T19:17:30.806Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "oekig3o7jn7zhsdb023ykzchfjlqgfha",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1sE776:buGO3do59x7r6ThOCABeFggTnmMQxV366NemIv1fbnA",
+        "expire_date": "2024-06-17T12:48:36.612Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "p3bjfbvaoo8znkxg3bccuc2ppll40wlo",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s4DKI:79hawYsyV1tXVQ55LpFE2HCYO0gC0fc95paLX5uxCtU",
+        "expire_date": "2024-05-21T05:25:18.959Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "pamtnhz1f6d27z5il5erfm0g9vt9c1p9",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s3qoY:uXS2VBPA3Y1nfwLG1DakJl_TDrLcFMR5DskLtSvJAUI",
+        "expire_date": "2024-05-20T05:23:02.274Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rvpoavb0a4u41v0a74kkyzbbxcbuibgf",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s4NMw:SsQZwFUlXNb0LNZHfHwM3DF3AkmOPoJWFqxhwKIOG3w",
+        "expire_date": "2024-05-21T16:08:42.845Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "xv5abdk4jkjcffo7ldcaj76xg81usqcn",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgwASX7j0DGWZAqgaS0q6Md9cmXej2v_f-S0Tc1hq3kZc4szgLLU6_W0J65LYDvmO7dUm9rcuc5K7Igw557Zyfl8P9O6g46rcODsEAgNOICiwwkyoWgy3KIyRViHWaTCHrrcJsHaswFU-akjGFnXh_AN5MOCA:1s5IqG:rWixzTVfDFv5AZnZtdV9Iy-7vtAXi_PippKVcTGulgc",
+        "expire_date": "2024-05-24T05:30:48.962Z"
+    }
+}
+]
