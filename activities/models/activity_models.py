@@ -56,7 +56,7 @@ class ActivityType(models.Model):
     visited_places = models.ManyToManyField(Place, blank=True)
     moved_to_residence = models.ForeignKey(Place, on_delete=models.CASCADE, related_name="moved_to_residence_set",
                                            null=True, blank=True)
-    market = models.ManyToManyField(Market, blank=True)
+    purchase_market = models.ForeignKey(Market, on_delete=models.CASCADE, null=True, blank=True)
     purchase = models.ForeignKey(Purchase, on_delete=models.CASCADE, null=True, blank=True)
     lecture = models.ForeignKey(Lecture, on_delete=models.CASCADE, null=True, blank=True)
     general_topic = models.ForeignKey(GeneralTopic, on_delete=models.CASCADE, null=True, blank=True)
