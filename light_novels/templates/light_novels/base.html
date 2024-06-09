@@ -1,0 +1,23 @@
+{% extends 'admin/base.html' %}
+{% load i18n static %}
+
+{% block extrahead %}
+    <link rel="stylesheet" href="{% static 'bootstrap/dist/css/bootstrap.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'bootstrap/dist/css/bootstrap-utilities.css' %}" type="text/css">
+{% endblock %}
+
+{% block title %}{{ "Light Novel"|title }}{% endblock %}
+{% block branding %}{{ "Light Novel"|title }}{% endblock %}
+
+{% block breadcrumbs %}
+  <div class="breadcrumbs">
+    <a href="{% url 'activities:index' %}">{% translate 'Home' %}</a>
+    {% block sub_breadcrumb %} {% endblock %}
+  </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container mx-5">
+        {% block content_body %} Content Body {% endblock %}
+    </div>
+{% endblock %}

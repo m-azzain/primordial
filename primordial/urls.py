@@ -27,6 +27,7 @@ urlpatterns = [
     path('', home, name='home'),
     path('admin/', admin.site.urls),
     path("activities/", include("activities.urls")),
+    path("novels/", include("light_novels.urls")),
     path("__debug__/", include("debug_toolbar.urls"))
 ]
 

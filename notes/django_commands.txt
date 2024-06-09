@@ -1,0 +1,8 @@
+Create new app:
+py manage.py startapp light_novels
+
+To use Postgres full text search add 'django.contrib.postgres' to the installed app
+
+To create migrations
+py manage.py makemigrations light_novels
+py manage.py migrate
