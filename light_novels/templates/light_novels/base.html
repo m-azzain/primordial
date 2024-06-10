@@ -2,16 +2,16 @@
 {% load i18n static %}
 
 {% block extrahead %}
-    <link rel="stylesheet" href="{% static 'bootstrap/dist/css/bootstrap.css' %}" type="text/css">
-    <link rel="stylesheet" href="{% static 'bootstrap/dist/css/bootstrap-utilities.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'main/bootstrap/dist/css/bootstrap.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'main/bootstrap/dist/css/bootstrap-utilities.css' %}" type="text/css">
 {% endblock %}
 
-{% block title %}{{ "Light Novel"|title }}{% endblock %}
-{% block branding %}{{ "Light Novel"|title }}{% endblock %}
+{% block title %}{{ "Light Novels"|title }}{% endblock %}
+{% block branding %}{{ "Light Novels"|title }}{% endblock %}
 
 {% block breadcrumbs %}
   <div class="breadcrumbs">
-    <a href="{% url 'activities:index' %}">{% translate 'Home' %}</a>
+    <a href="{% url 'light_novels:index' %}">{% translate 'Home' %}</a>
     {% block sub_breadcrumb %} {% endblock %}
   </div>
 {% endblock %}

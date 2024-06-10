@@ -1,0 +1,10 @@
+{% extends "light_novels/base.html" %}
+
+{% block content%}
+    <h3>Welcome To Cleaned Light Novels</h3>
+    {% for novel in novels %}
+        <div>
+        <a href="{% url 'light_novels:chapters' novel.id %}">{{ novel.name }}</a>
+        </div>
+    {% endfor %}
+{% endblock %}

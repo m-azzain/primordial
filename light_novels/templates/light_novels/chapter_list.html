@@ -3,7 +3,7 @@
 
 {% block sub_breadcrumb %}
     {{ block.super }}
-    &rsaquo; {{ 'Chapter List' }}
+    &rsaquo; {{ chapters.0.novel.name }}
 {% endblock %}
 
 {% block content_body%}
@@ -18,7 +18,7 @@
         <tbody>
         {% for chapter in chapters %}
             <tr>
-                <td><a href="{% url 'light_novels:chapter' chapter.novel.id chapter.id %}">{{chapter}}</a></td>
+                <td class="fs-5"><a href="{% url 'light_novels:chapter' chapter.novel.id chapter.id %}">{{chapter}}</a></td>
             </tr>
 
         {% endfor %}

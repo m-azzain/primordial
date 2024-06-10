@@ -2,16 +2,18 @@
 
 {% block sub_breadcrumb %}
     {{ block.super }}
-    &rsaquo; <a href="{% url 'light_novels:chapters' chapter.novel.id %}">{{ 'Chapter List' }}</a>
+    &rsaquo; <a href="{% url 'light_novels:chapters' chapter.novel.id %}">{{ chapter.novel.name }}</a>
     &rsaquo; {{ chapter.title }}
 {% endblock %}
 
 {% block content_body%}
-    <h3>{{ head }}</h3>
-    {% for s_b in sub_heads %}
-        <p><strong>{{ s_b }}</strong></p>
-    {% endfor %}
-    {% for para in paragraphs %}
-        <p>{{ para }}</p>
-    {% endfor %}
+    <div class="fs-5">
+        <h3>{{ head }}</h3>
+        {% for s_b in sub_heads %}
+            <p><strong>{{ s_b }}</strong></p>
+        {% endfor %}
+        {% for para in paragraphs %}
+            <p>{{ para }}</p>
+        {% endfor %}
+    </div>
 {% endblock %}

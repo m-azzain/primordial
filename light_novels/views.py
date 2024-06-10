@@ -1,3 +1,4 @@
+from django.shortcuts import render
 from django.views.generic import ListView, DetailView
 
 from lxml import etree, builder, html
@@ -7,11 +8,16 @@ from lxml.html import builder as html_builder
 from light_novels.models import Chapter, Novel
 
 
+def index(request):
+    novels = Novel.objects.all()
+    return render(request, template_name='light_novels/index.html', context={'novels': novels})
+
+
 class ChapterListView(ListView):
     model = Chapter
     template_name = 'light_novels/chapter_list.html'
     context_object_name = 'chapters'
-    paginate_by = 10
+    paginate_by = 25
 
     def get_queryset(self):
         q = self.request.path
