@@ -24,3 +24,11 @@ class ActivityTestCase(TestCase):
         for activity in Activity.objects.all():
             activity_diary_id_list = get_activity_diary_id_list(activity)
             self.assertGreater(len(activity_diary_id_list), 0, msg='Activity should have at least one diary')
+
+    def test_activities_with_same_type_should_not_have_same_time(self):
+        """
+            Activities with same type should not have the same time; they should not have the same values for the fields
+            time_from and time_to.
+        """
+        # TODO
+        pass
